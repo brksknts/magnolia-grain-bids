@@ -1,0 +1,61 @@
+name: Collect public grain bids
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 5:15 AM Central (the 10:15 UTC run applies during daylight time;
+    # the 11:15 UTC run applies during standard time).
+    - cron: '15 10 * * *'
+    - cron: '15 11 * * *'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install Python packages and Chromium
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Collect (skip off-hour run after daylight-saving changes)
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: python collect_bids.py
+      - name: Commit public report for GitHub Pages
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/
+          if ! git diff --staged --quiet; then
+            git commit -m "Update public grain bids $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: grain-bids-debug
+          path: docs/
+          retention-days: 14
+      - uses: actions/configure-pages@v5
+        if: always()
+      - uses: actions/upload-pages-artifact@v3
+        if: always()
+        with:
+          path: docs
+      - name: Deploy public price report
+        id: deployment
+        if: always()
+        uses: actions/deploy-pages@v4
