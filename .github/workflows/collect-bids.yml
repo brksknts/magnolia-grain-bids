@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'collect_bids.py'
+      - 'ranked_report.py'
       - '.github/workflows/collect-bids.yml'
       - 'requirements.txt'
   schedule:
@@ -40,6 +41,8 @@ jobs:
         env:
           GITHUB_EVENT_NAME: ${{ github.event_name }}
         run: python collect_bids.py
+      - name: Build sorted grain dashboard
+        run: python ranked_report.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
