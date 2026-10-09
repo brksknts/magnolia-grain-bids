@@ -177,28 +177,67 @@ def _page_date(lines,source):
  return 'Not published in captured text'
 
 
-_CHS_LOC={'brandon','magnolia','luverne','pipestone','ruthton','tracy','marshall',
-          'lismore','hills','ellworth','worthington','garretson','sioux falls','hartford'}
+_CHS_BASE_LOCATIONS={
+ 'brandon','magnolia','luverne','pipestone','ruthton','tracy','marshall',
+ 'lismore','hills','ellsworth','worthington','garretson','sioux falls','hartford',
+ 'sioux center','rock rapids','adrian','jasper','chandler','edgerton','hardwick',
+ 'woodstock','leota','windom','reading','brewster'
+}
 _CHS_MONTH=re.compile(r'^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+20\d{2}$',re.I)
 _CHS_FUT=re.compile(r'^Z[CS][A-Z]\d{2}$',re.I)
+_CHS_EXCLUDE_HEADINGS={'location','commodity','cash bids','cash bid','basis','bid','delivery',
+ 'futures','futures month','change','notes','grain','login','yellow corn','corn','soybeans'}
+
+
+def _chs_location_header(line, next_line):
+ """Recognize the LOCATION label immediately preceding a crop section.
+
+ CHS can publish multiple delivery points in one page, sometimes with
+ qualifiers (e.g. 'Brandon East'). A closed list silently assigns unknown
+ headings to the preceding elevator; instead, recognize the repeated heading
+ structure, requiring an immediate Soybeans/Corn section after it.
+ """
+ name=line.strip().replace('\u00a0',' ')
+ low=name.casefold()
+ if low in _CHS_EXCLUDE_HEADINGS or not name or len(name)>70:return None
+ if _CHS_MONTH.fullmatch(name) or _CHS_FUT.fullmatch(name):return None
+ if _price(name) is not None or _basis(name) is not None:return None
+ if next_line.casefold() not in ('soybeans','corn','yellow corn'):return None
+ # No navigation fragments, explanatory text or bid headers.
+ if not re.fullmatch(r"[A-Za-z][A-Za-z0-9 .&'()\-]{0,69}",name):return None
+ words=name.split()
+ if len(words)>6:return None
+ if low in _CHS_BASE_LOCATIONS or any(re.search(r'\b'+re.escape(loc)+r'\b',low) for loc in _CHS_BASE_LOCATIONS):
+  return name
+ # Other CHS cash bid cards can have a new town not in our list.
+ # On a repeated 'LOCATION / Soybeans / DELIVERY' layout, accept short
+ # place-like headings, but NOT a generic page title.
+ if len(words)<=3 and words[0][0].isupper() and not any(t in low for t in ('cash bid','location','futures','grain prices','harvest','2026','2027')):
+  return name
+ return None
 
 
 def parse_chs(lines,src,url,captured,frame_url,page_date):
- """CHS Brandon's accessible innerText is often ONE CELL PER LINE.
- Example: Magnolia, Soybeans, DELIVERY..., Oct 2026, 12.45, -0.51, 12.9600, +0.0850, ZSX26.
- Only accept a bid+basis+matching futures triple under an explicit location and crop.
+ """Extract CHS cash bids, tying every block to its explicit location header.
+
+ One cell per line, e.g. Magnolia / Soybeans / Oct 2026 / 12.45 / -0.51 /
+ 12.9600 / 0.0850 / ZSX26. If headings aren't recognized, downstream
+ conflict checking quarantines contradictory same-location quotations.
  """
  loc='';crop='';result=[]
  for i,line in enumerate(lines):
+  next_line=lines[i+1] if i+1<len(lines) else ''
+  new_location=_chs_location_header(line,next_line)
+  if new_location:
+   loc=new_location;crop='';continue
   low=line.casefold()
-  if low in _CHS_LOC:loc=line.title();crop='';continue
-  if low in ('soybeans','yellow corn','corn'):crop='Soybeans' if low=='soybeans' else 'Corn';continue
+  if low in ('soybeans','yellow corn','corn'):
+   crop='Soybeans' if low=='soybeans' else 'Corn';continue
   if not (loc and crop and _CHS_MONTH.fullmatch(line)):continue
   tail=lines[i+1:i+8]
   if len(tail)<3:continue
   bid=_price(tail[0]);basis=_basis(tail[1]);fut=_price(tail[2])
   if bid is None or basis is None or fut is None:continue
-  # Validate that this triple actually represents a basis equation.
   if abs((bid-basis/100)-fut)>.025:continue
   future=next((v for v in tail[3:] if _CHS_FUT.fullmatch(v)), '')
   if not future:continue
@@ -295,6 +334,27 @@ def extract_line_based(text,source,url,captured,frame_url):
  if source=='New Vision':return parse_newvision(lines,source,url,captured,frame_url,page_date)
  return []
 
+def validate_and_resolve_bids(bids):
+ """Never show two incompatible prices for the same location/crop/month.
+
+ Store contradictory rows in a diagnostics list instead of selecting an
+ arbitrary price. Extra quotes from separate HTML and text paths deduplicate.
+ """
+ seen=set();unique=[]
+ for b in bids:
+  key=(b['location'].casefold().strip(),b['commodity'],b['delivery'].casefold().strip(),
+       b['cash_usd_per_bu'],b['basis_cents_per_bu'])
+  if key not in seen:seen.add(key);unique.append(b)
+ grouped={}
+ for b in unique:
+  key=(b['location'].casefold().strip(),b['commodity'],b['delivery'].casefold().strip())
+  grouped.setdefault(key,[]).append(b)
+ conflicts=[{'key':list(k),'quotations':values} for k,values in grouped.items()
+            if len({(v['cash_usd_per_bu'],v['basis_cents_per_bu']) for v in values})>1]
+ bad={tuple(x['key']) for x in conflicts}
+ kept=[v for k,values in grouped.items() if k not in bad for v in values]
+ return kept,conflicts
+
 def safe_shot(page,slug):
  p=CAPTURES/(slug+'.png')
  try:page.screenshot(path=str(p),full_page=True,timeout=20000,animations='disabled')
@@ -306,7 +366,7 @@ def run_source(browser,source,slug,url,captured):
  context=browser.new_context(viewport={'width':1600,'height':1000},device_scale_factor=1,
      extra_http_headers={'Cache-Control':'no-cache','Pragma':'no-cache'})
  page=context.new_page()
- data={'source':source,'url':url,'status':'unavailable','tables':[], 'bids':[], 'error':'', 'frames':[]}
+ data={'source':source,'url':url,'status':'unavailable','tables':[], 'bids':[], 'conflicts':[], 'error':'', 'frames':[]}
  try:
   response=page.goto(url,wait_until='domcontentloaded',timeout=45000)
   page.wait_for_timeout(9000)
@@ -332,12 +392,11 @@ def run_source(browser,source,slug,url,captured):
    data['error']='Website displayed an access challenge; automation cannot collect bids.'
   elif not data['bids']:
    data['error']='No verified bid rows extracted: site may have no data or require different parser. Inspect screenshot and text.'
-  # Deduplicate any rows found in both DOM tables and text fallback.
-  seen=set(); unique=[]
-  for b in data['bids']:
-   key=(b['location'].lower(),b['commodity'],b['delivery'].lower(),b['cash_usd_per_bu'],b['basis_cents_per_bu'])
-   if key not in seen:seen.add(key);unique.append(b)
-  data['bids']=unique
+  data['bids'],data['conflicts']=validate_and_resolve_bids(data['bids'])
+  if data['conflicts']:
+   msg=f"{len(data['conflicts'])} contradictory location/crop/month group(s) excluded; inspect JSON conflicts and page diagnostics."
+   data['error']=(data['error']+'; ' if data['error'] else '')+msg
+
  except Exception as e:
   data['error']=str(e)[:1500]
   safe_shot(page,slug)
