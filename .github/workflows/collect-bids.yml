@@ -2,6 +2,12 @@ name: Collect public grain bids
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'collect_bids.py'
+      - '.github/workflows/collect-bids.yml'
+      - 'requirements.txt'
   schedule:
     # 5:15 AM Central (the 10:15 UTC run applies during daylight time;
     # the 11:15 UTC run applies during standard time).
