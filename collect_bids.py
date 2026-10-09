@@ -270,27 +270,46 @@ def parse_chandler(lines,src,url,captured,frame_url,page_date):
 _FARM_LOC=re.compile(r'^([\w&.() \-]+?),\s*(Minnesota|Iowa|South Dakota|Nebraska)(?:\s+Compare prices)?\s*$',re.I)
 _FARM_DEL=re.compile(r'^(?:(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?)\s+20\d{2}|(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*[\u2013-](?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+20\d{2}|Sep\s+\d+[\u2013-]\d+,\s*20\d{2})$',re.I)
 
-def parse_farmbucks(lines,src,url,captured,frame_url,page_date):
- """Farmbucks groups prices by grain and buyer location, often with each cell on its own line.
- Cash-only data is intentionally preserved with basis=None; never derive mismatched basis.
+def parse_farmbucks(lines, src, url, captured, frame_url, page_date):
+ """Read Farmbucks location rows whose delivery and USD price share one line.
+
+ Farmbucks currently renders:
+ Rock Rapids, Iowa
+ Compare prices
+ October 2026    USD 4.34
+
+ Older layouts can place delivery and the amount on separate lines.
+ Reject regional range summaries and prices without a named location.
  """
  crop='';loc='';result=[]
+ price_line=re.compile(r'^(.*?)\\s+USD\\s+(\\d{1,2}\\.\\d{2,4})\\s*$',re.I)
+ date_words=re.compile(r'^(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?|NC)\\b',re.I)
  for i,line in enumerate(lines):
   low=line.lower()
-  if low in ('#2 yellow corn','yellow corn') or re.match(r'^#2 yellow corn prices in ',low):crop='Corn';loc='';continue
-  if low in ('#2 yellow soybeans','yellow soybeans') or re.match(r'^#2 yellow soybeans prices in ',low):crop='Soybeans';loc='';continue
-  candidate=re.sub(r'\s+Compare prices$','',line,flags=re.I)
+  if low in ('#2 yellow corn','yellow corn') or low.startswith('#2 yellow corn prices in '):
+   crop='Corn';loc='';continue
+  if low in ('#2 yellow soybeans','yellow soybeans') or low.startswith('#2 yellow soybeans prices in '):
+   crop='Soybeans';loc='';continue
+  candidate=re.sub(r'\\s+Compare prices$','',line,flags=re.I).strip()
   m=_FARM_LOC.fullmatch(candidate)
   if m:
-   loc=(m.group(1).strip()+', '+m.group(2).title());continue
+   loc=m.group(1).strip()+', '+m.group(2).title()
+   continue
   if not(crop and loc):continue
-  if not _FARM_DEL.fullmatch(line):continue
-  # A qualifying delivery must be followed by a standalone public cash price.
-  price=_price(lines[i+1]) if i+1<len(lines) else None
-  if price is None:continue
-  result.append(_row(src,loc,crop,line,price,None,url,captured,frame_url,page_date=page_date))
+  delivery=None;price=None
+  match=price_line.fullmatch(line)
+  if match:
+   delivery=match.group(1).strip()
+   price=_price(match.group(2))
+  elif _FARM_DEL.fullmatch(line) and i+1<len(lines):
+   delivery=line
+   next_match=re.fullmatch(r'USD\\s+(\\d{1,2}\\.\\d{2,4})',lines[i+1],re.I)
+   if next_match:price=_price(next_match.group(1))
+   else:price=_price(lines[i+1])
+  if not delivery or not date_words.match(delivery) or price is None:continue
+  if not re.search(r'\\b20\\d{2}\\b',delivery):continue
+  result.append(_row(src,loc,crop,delivery,price,None,url,captured,frame_url,page_date=page_date))
  return result
-
 
 _NV_LOC={'magnolia','worthington','hills terminal','hills','ellsworth','reading','brewster',
          'lismore','heron lake','dundee','miloma','jeffers','mountain lake','windom','wilmont'}
