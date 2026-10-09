@@ -132,28 +132,168 @@ def rows_from_table(t, source,url,captured,frame_url):
     'basis_status':'posted' if basis is not None else 'not posted'})
  return bids
 
-def extract_line_based(text,source,url,captured,frame_url):
- """Conservative fallback for widget divs, if the rendered text is row-by-row.
- CHS has <location>, <commodity>, <column names>, <month> <bid> <basis> ...
- Only match complete, recognizable price lines. Any ambiguous lines are ignored.
+def _lines(text):
+ """Keep DOM text's column breaks; some cash-bid widgets emit one cell per line."""
+ return [re.sub(r'\s+', ' ', str(t).replace('\xa0',' ')).strip() for t in text.splitlines() if t.strip()]
+
+
+def _price(s):
+ """Parse an isolated USD cash price, never a futures value or a price range."""
+ m=re.fullmatch(r'(?:USD\s*)?\$?\s*(\d{1,2}\.\d{2,4})',s.strip(),re.I)
+ if not m:return None
+ x=float(m.group(1))
+ return x if 2<=x<=25 else None
+
+
+def _basis(s):
+ """Normalize -0.45 dollars or -45.00 cents to basis cents."""
+ m=re.fullmatch(r'([+-]?\d{1,3}\.\d{1,4})',s.strip().replace('−','-'))
+ if not m:return None
+ x=float(m.group(1))
+ return round(100*x if abs(x)<3 else x,2) if -250<=x<=250 else None
+
+
+def _row(source,loc,crop,month,price,basis,url,captured,frame_url,futures='',page_date=''):
+ return {'source':source,'location':loc,'commodity':crop,'delivery':month,
+         'cash_usd_per_bu':price,'basis_cents_per_bu':basis,'futures_month':futures,
+         'captured_at_ct':captured,'url':url,'frame_url':frame_url,
+         'source_updated':page_date,
+         'basis_status':'posted' if basis is not None else 'not posted'}
+
+
+def _cme_dash(s):
+ """502-4 = $5.025; 1297-0 = $12.970; 502-0 = $5.020."""
+ m=re.fullmatch(r'(\d{3,4})-([0-7])',s.strip())
+ if not m:return None
+ return (int(m.group(1))+int(m.group(2))/8)/100
+
+
+def _page_date(lines,source):
+ for line in lines[:120]:
+  if source=='Chandler Feed' and re.search(r'Cash bids for (?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)',line,re.I):
+   return line.strip()
+  if 'Farmbucks' in source or source in ('CFE','POET'):
+   if re.search(r'Last updated\s*:',line,re.I):return line.strip()
+ return 'Not published in captured text'
+
+
+_CHS_LOC={'brandon','magnolia','luverne','pipestone','ruthton','tracy','marshall',
+          'lismore','hills','ellworth','worthington','garretson','sioux falls','hartford'}
+_CHS_MONTH=re.compile(r'^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+20\d{2}$',re.I)
+_CHS_FUT=re.compile(r'^Z[CS][A-Z]\d{2}$',re.I)
+
+
+def parse_chs(lines,src,url,captured,frame_url,page_date):
+ """CHS Brandon's accessible innerText is often ONE CELL PER LINE.
+ Example: Magnolia, Soybeans, DELIVERY..., Oct 2026, 12.45, -0.51, 12.9600, +0.0850, ZSX26.
+ Only accept a bid+basis+matching futures triple under an explicit location and crop.
  """
- if source not in ('CHS Brandon','New Vision'):return []
- lines=[re.sub(r'\s+',' ',x).strip() for x in text.splitlines() if x.strip()]
- locations=['Magnolia','Luverne','Pipestone','Ruthton','Tracy','Marshall','Worthington','Hills','Ellsworth','Brewster','Reading']
- loc=''; commodity=''; out=[]
- # Examples: Oct 2026 12.45 -0.51 12.96 0.085 ZSX26
- pat=re.compile(r'^(?P<month>Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{2,4}\s+(?P<bid>\$?\d{1,2}\.\d{2,4})\s+(?P<basis>-\d+\.\d{1,4})\b',re.I)
- for i,s in enumerate(lines):
-  if s.lower() in [l.lower() for l in locations]:loc=s
-  if s.lower() in ('soybeans','yellow corn','corn'):commodity=norm_commodity(s)
-  m=pat.match(s)
-  if not m or not commodity or not loc:continue
-  price=_num(m['bid']); bas=basis_cents(m['basis'])
-  if price is None or bas is None or not(1<price<30):continue
-  out.append({'source':source,'location':loc,'commodity':commodity,'delivery':m['month']+' '+s.split(' ')[1],
-     'cash_usd_per_bu':price,'basis_cents_per_bu':bas,'futures_month':'',
-     'captured_at_ct':captured,'url':url,'frame_url':frame_url,'basis_status':'posted'})
+ loc='';crop='';result=[]
+ for i,line in enumerate(lines):
+  low=line.casefold()
+  if low in _CHS_LOC:loc=line.title();crop='';continue
+  if low in ('soybeans','yellow corn','corn'):crop='Soybeans' if low=='soybeans' else 'Corn';continue
+  if not (loc and crop and _CHS_MONTH.fullmatch(line)):continue
+  tail=lines[i+1:i+8]
+  if len(tail)<3:continue
+  bid=_price(tail[0]);basis=_basis(tail[1]);fut=_price(tail[2])
+  if bid is None or basis is None or fut is None:continue
+  # Validate that this triple actually represents a basis equation.
+  if abs((bid-basis/100)-fut)>.025:continue
+  future=next((v for v in tail[3:] if _CHS_FUT.fullmatch(v)), '')
+  if not future:continue
+  result.append(_row(src,loc,crop,line,bid,basis,url,captured,frame_url,future,page_date))
+ return result
+
+
+_CHANDLER_DEL=re.compile(r'^(?:NC|Cash|Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s*(?:20)?\d{2}$',re.I)
+
+def parse_chandler(lines,src,url,captured,frame_url,page_date):
+ """Chandler public page emits 'NC 26', '4.52', '-0.50', '502-0', '+1-6', 'Dec 26 Corn'."""
+ loc='Chandler';crop='';out=[]
+ for i,line in enumerate(lines):
+  low=line.lower()
+  if low=='corn':crop='Corn';continue
+  if low=='soybeans':crop='Soybeans';continue
+  if low in ('oats','wheat','milo','grain sorghum'):crop='';continue
+  if not crop or not _CHANDLER_DEL.fullmatch(line):continue
+  tail=lines[i+1:i+9]
+  if len(tail)<3:continue
+  bid=_price(tail[0]);basis=_basis(tail[1]);future=_cme_dash(tail[2])
+  if bid is None or basis is None or future is None:continue
+  if abs((bid-basis/100)-future)>.025:continue
+  futuremonth=next((v for v in tail[3:] if re.match(r'^(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{2}\s+(?:Corn|Soybeans)$',v,re.I)),'')
+  if not futuremonth:continue
+  out.append(_row(src,loc,crop,line,bid,basis,url,captured,frame_url,futuremonth,page_date))
  return out
+
+
+_FARM_LOC=re.compile(r'^([\w&.() \-]+?),\s*(Minnesota|Iowa|South Dakota|Nebraska)(?:\s+Compare prices)?\s*$',re.I)
+_FARM_DEL=re.compile(r'^(?:(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?)\s+20\d{2}|(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*[\u2013-](?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+20\d{2}|Sep\s+\d+[\u2013-]\d+,\s*20\d{2})$',re.I)
+
+def parse_farmbucks(lines,src,url,captured,frame_url,page_date):
+ """Farmbucks groups prices by grain and buyer location, often with each cell on its own line.
+ Cash-only data is intentionally preserved with basis=None; never derive mismatched basis.
+ """
+ crop='';loc='';result=[]
+ for i,line in enumerate(lines):
+  low=line.lower()
+  if low in ('#2 yellow corn','yellow corn') or re.match(r'^#2 yellow corn prices in ',low):crop='Corn';loc='';continue
+  if low in ('#2 yellow soybeans','yellow soybeans') or re.match(r'^#2 yellow soybeans prices in ',low):crop='Soybeans';loc='';continue
+  candidate=re.sub(r'\s+Compare prices$','',line,flags=re.I)
+  m=_FARM_LOC.fullmatch(candidate)
+  if m:
+   loc=(m.group(1).strip()+', '+m.group(2).title());continue
+  if not(crop and loc):continue
+  if not _FARM_DEL.fullmatch(line):continue
+  # A qualifying delivery must be followed by a standalone public cash price.
+  price=_price(lines[i+1]) if i+1<len(lines) else None
+  if price is None:continue
+  result.append(_row(src,loc,crop,line,price,None,url,captured,frame_url,page_date=page_date))
+ return result
+
+
+_NV_LOC={'magnolia','worthington','hills terminal','hills','ellsworth','reading','brewster',
+         'lismore','heron lake','dundee','miloma','jeffers','mountain lake','windom','wilmont'}
+_NV_DEL=re.compile(r'^(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)(?:[a-z]*)?\s+(?:\d{2}|20\d{2})$',re.I)
+
+def parse_newvision(lines,src,url,captured,frame_url,page_date):
+ """New Vision's dynamic location widget prints: Corn, Oct 26, $4.5750, Oct 26,
+ Fut.Chg, -45.00, Dec 2026. Require concrete location and a matching basis equation
+ when a quoted futures value can be inferred from price and basis.
+ """
+ loc='';out=[]
+ for i,line in enumerate(lines):
+  lo=line.lower()
+  if lo in _NV_LOC:loc=line.title();continue
+  if lo not in ('corn','soybeans') or not loc:continue
+  crop='Corn' if lo=='corn' else 'Soybeans'
+  tail=lines[i+1:i+12]
+  if len(tail)<3 or not _NV_DEL.fullmatch(tail[0]):continue
+  price=_price(tail[1]);month=tail[0]
+  if price is None:continue
+  # Basis at New Vision is in cents, e.g. -45.00; avoid negative futures change (2-2).
+  basis=None
+  for candidate in tail[2:8]:
+   if re.fullmatch(r'-\d{1,3}\.\d{2}',candidate):
+    maybe=_basis(candidate)
+    if maybe is not None and -250<=maybe<=0:basis=maybe;break
+  future=next((x for x in tail[2:10] if re.match(r'^(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+20\d{2}$',x,re.I)),'')
+  out.append(_row(src,loc,crop,month,price,basis,url,captured,frame_url,future,page_date))
+ return out
+
+
+def extract_line_based(text,source,url,captured,frame_url):
+ """Source-aware multiline extraction for rendered widget and card text."""
+ lines=_lines(text)
+ if not lines:return []
+ page_date=_page_date(lines,source)
+ if source=='CHS Brandon':return parse_chs(lines,source,url,captured,frame_url,page_date)
+ if source=='Chandler Feed':return parse_chandler(lines,source,url,captured,frame_url,page_date)
+ if source in ('CFE','POET','New Vision (Farmbucks)'):
+  return parse_farmbucks(lines,source,url,captured,frame_url,page_date)
+ if source=='New Vision':return parse_newvision(lines,source,url,captured,frame_url,page_date)
+ return []
 
 def safe_shot(page,slug):
  p=CAPTURES/(slug+'.png')
@@ -191,7 +331,7 @@ def run_source(browser,source,slug,url,captured):
   if not data['bids'] and any(word in lowered for word in ['access denied','verify you are human','captcha','just a moment...']):
    data['error']='Website displayed an access challenge; automation cannot collect bids.'
   elif not data['bids']:
-   data['error']='No verified bid rows extracted. Inspect linked screenshot and visible page text.'
+   data['error']='No verified bid rows extracted: site may have no data or require different parser. Inspect screenshot and text.'
   # Deduplicate any rows found in both DOM tables and text fallback.
   seen=set(); unique=[]
   for b in data['bids']:
@@ -208,12 +348,12 @@ def render_html(result):
  rows=[]
  for s in result['sources']:
   for b in s['bids']:
-   fields=['source','location','commodity','delivery','cash_usd_per_bu','basis_cents_per_bu','futures_month','captured_at_ct']
+   fields=['source','location','commodity','delivery','cash_usd_per_bu','basis_cents_per_bu','futures_month','source_updated','captured_at_ct']
    rows.append('<tr>'+''.join('<td>'+html.escape(str(b.get(k,'') if b.get(k) is not None else 'Not posted'))+'</td>' for k in fields)+'</tr>')
  status=''.join('<li>'+html.escape(f"{s['source']}: HTTP {s['status']} / {len(s['tables'])} tables / {len(s['bids'])} bids"+
    (' — '+s['error'] if s['error'] else ''))+'</li>' for s in result['sources'])
  links=''.join(f'<li><a href="captures/{slug}.png">{html.escape(name)} screenshot</a> | <a href="captures/{slug}.txt">visible text</a></li>' for name,slug,_ in SOURCES)
- return '''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Magnolia grain bids</title><style>body{font:16px system-ui,sans-serif;max-width:1300px;margin:32px auto;padding:0 16px;color:#223}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border-bottom:1px solid #ddd;padding:8px;text-align:left}th{background:#f1f5f9}a{color:#176795}main{overflow-x:auto}</style></head><body><h1>Magnolia-area public grain bids</h1><p>Capture: <b>'''+html.escape(result['captured_at_ct'])+'''</b> Central. Public data are NOT executable quotes. Confirm with buyer. Missing basis means 'not posted', never estimated.</p><p><a href="latest.json">JSON</a> | <a href="latest.csv">CSV</a></p><main><table><thead><tr>'''+''.join('<th>'+v+'</th>' for v in ['Buyer','Location','Commodity','Delivery','Cash $/bu','Basis cents','Futures month','Captured CT'])+'''</tr></thead><tbody>'''+''.join(rows)+'''</tbody></table></main><h2>Source status</h2><ul>'''+status+'''</ul><h2>Source screenshots and diagnostics</h2><ul>'''+links+'''</ul><p>If a source remains empty, the collector did not obtain a usable quote. It does not infer cash bids from futures.</p></body></html>'''
+ return '''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Magnolia grain bids</title><style>body{font:16px system-ui,sans-serif;max-width:1300px;margin:32px auto;padding:0 16px;color:#223}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border-bottom:1px solid #ddd;padding:8px;text-align:left}th{background:#f1f5f9}a{color:#176795}main{overflow-x:auto}</style></head><body><h1>Magnolia-area public grain bids</h1><p>Capture: <b>'''+html.escape(result['captured_at_ct'])+'''</b> Central. Public data are NOT executable quotes. Confirm with buyer. Missing basis means 'not posted', never estimated.</p><p><a href="latest.json">JSON</a> | <a href="latest.csv">CSV</a></p><main><table><thead><tr>'''+''.join('<th>'+v+'</th>' for v in ['Buyer','Location','Commodity','Delivery','Cash $/bu','Basis cents','Futures month','Source updated','Captured CT'])+'''</tr></thead><tbody>'''+''.join(rows)+'''</tbody></table></main><h2>Source status</h2><ul>'''+status+'''</ul><h2>Source screenshots and diagnostics</h2><ul>'''+links+'''</ul><p>If a source remains empty, the collector did not obtain a usable quote. It does not infer cash bids from futures.</p></body></html>'''
 
 def main():
  p=argparse.ArgumentParser();p.add_argument('--force',action='store_true');args=p.parse_args()
@@ -231,7 +371,7 @@ def main():
    result['sources'].append(data)
   browser.close()
  (OUT/'latest.json').write_text(json.dumps(result,indent=2,ensure_ascii=False),encoding='utf-8')
- fields=['source','location','commodity','delivery','cash_usd_per_bu','basis_cents_per_bu','futures_month','captured_at_ct','url','frame_url','basis_status']
+ fields=['source','location','commodity','delivery','cash_usd_per_bu','basis_cents_per_bu','futures_month','source_updated','captured_at_ct','url','frame_url','basis_status']
  with (OUT/'latest.csv').open('w',newline='',encoding='utf-8') as fp:
   w=csv.DictWriter(fp,fieldnames=fields);w.writeheader()
   for s in result['sources']:
