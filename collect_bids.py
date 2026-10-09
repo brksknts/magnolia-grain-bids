@@ -282,15 +282,15 @@ def parse_farmbucks(lines, src, url, captured, frame_url, page_date):
  Reject regional range summaries and prices without a named location.
  """
  crop='';loc='';result=[]
- price_line=re.compile(r'^(.*?)\\s+USD\\s+(\\d{1,2}\\.\\d{2,4})\\s*$',re.I)
- date_words=re.compile(r'^(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?|NC)\\b',re.I)
+ price_line=re.compile(r'^(.*?)\s+USD\s+(\d{1,2}\.\d{2,4})\s*$',re.I)
+ date_words=re.compile(r'^(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?|NC)\b',re.I)
  for i,line in enumerate(lines):
   low=line.lower()
   if low in ('#2 yellow corn','yellow corn') or low.startswith('#2 yellow corn prices in '):
    crop='Corn';loc='';continue
   if low in ('#2 yellow soybeans','yellow soybeans') or low.startswith('#2 yellow soybeans prices in '):
    crop='Soybeans';loc='';continue
-  candidate=re.sub(r'\\s+Compare prices$','',line,flags=re.I).strip()
+  candidate=re.sub(r'\s+Compare prices$','',line,flags=re.I).strip()
   m=_FARM_LOC.fullmatch(candidate)
   if m:
    loc=m.group(1).strip()+', '+m.group(2).title()
@@ -303,11 +303,11 @@ def parse_farmbucks(lines, src, url, captured, frame_url, page_date):
    price=_price(match.group(2))
   elif _FARM_DEL.fullmatch(line) and i+1<len(lines):
    delivery=line
-   next_match=re.fullmatch(r'USD\\s+(\\d{1,2}\\.\\d{2,4})',lines[i+1],re.I)
+   next_match=re.fullmatch(r'USD\s+(\d{1,2}\.\d{2,4})',lines[i+1],re.I)
    if next_match:price=_price(next_match.group(1))
    else:price=_price(lines[i+1])
   if not delivery or not date_words.match(delivery) or price is None:continue
-  if not re.search(r'\\b20\\d{2}\\b',delivery):continue
+  if not re.search(r'\b20\d{2}\b',delivery):continue
   result.append(_row(src,loc,crop,delivery,price,None,url,captured,frame_url,page_date=page_date))
  return result
 
