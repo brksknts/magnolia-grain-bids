@@ -1,0 +1,5466 @@
+{
+  "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+  "sources": [
+    {
+      "source": "CHS Brandon",
+      "url": "https://www.chsbrandon.com/grain/cash-bids/",
+      "status": "200",
+      "tables": [],
+      "bids": [
+        {
+          "source": "CHS Brandon",
+          "location": "Brandon",
+          "commodity": "Soybeans",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 12.23,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Brandon",
+          "commodity": "Soybeans",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 12.23,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Brandon",
+          "commodity": "Soybeans",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 12.34,
+          "basis_cents_per_bu": -60.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Brandon",
+          "commodity": "Soybeans",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 12.39,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Brandon",
+          "commodity": "Soybeans",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 12.3,
+          "basis_cents_per_bu": -64.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Brandon",
+          "commodity": "Corn",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 4.17,
+          "basis_cents_per_bu": -57.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Brandon",
+          "commodity": "Corn",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 4.17,
+          "basis_cents_per_bu": -57.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Brandon",
+          "commodity": "Corn",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 4.2,
+          "basis_cents_per_bu": -54.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Brandon",
+          "commodity": "Corn",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 4.25,
+          "basis_cents_per_bu": -63.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Brandon",
+          "commodity": "Corn",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 4.28,
+          "basis_cents_per_bu": -60.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Canton",
+          "commodity": "Soybeans",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 12.23,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Canton",
+          "commodity": "Soybeans",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 12.23,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Canton",
+          "commodity": "Soybeans",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 12.34,
+          "basis_cents_per_bu": -60.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Canton",
+          "commodity": "Soybeans",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 12.39,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Canton",
+          "commodity": "Soybeans",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 12.3,
+          "basis_cents_per_bu": -64.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Canton",
+          "commodity": "Corn",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 4.19,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Canton",
+          "commodity": "Corn",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 4.19,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Canton",
+          "commodity": "Corn",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 4.21,
+          "basis_cents_per_bu": -53.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Canton",
+          "commodity": "Corn",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 4.26,
+          "basis_cents_per_bu": -62.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Canton",
+          "commodity": "Corn",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 4.29,
+          "basis_cents_per_bu": -59.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Elkton",
+          "commodity": "Soybeans",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 12.09,
+          "basis_cents_per_bu": -69.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Elkton",
+          "commodity": "Soybeans",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 12.12,
+          "basis_cents_per_bu": -66.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Elkton",
+          "commodity": "Soybeans",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 12.19,
+          "basis_cents_per_bu": -75.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Elkton",
+          "commodity": "Soybeans",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 12.19,
+          "basis_cents_per_bu": -75.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Elkton",
+          "commodity": "Soybeans",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 12.1,
+          "basis_cents_per_bu": -84.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Elkton",
+          "commodity": "Corn",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 4.19,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Elkton",
+          "commodity": "Corn",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 4.24,
+          "basis_cents_per_bu": -50.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Elkton",
+          "commodity": "Corn",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 4.28,
+          "basis_cents_per_bu": -46.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Elkton",
+          "commodity": "Corn",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 4.32,
+          "basis_cents_per_bu": -56.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Elkton",
+          "commodity": "Corn",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 4.32,
+          "basis_cents_per_bu": -56.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Luverne",
+          "commodity": "Soybeans",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 12.19,
+          "basis_cents_per_bu": -59.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Luverne",
+          "commodity": "Soybeans",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 12.22,
+          "basis_cents_per_bu": -56.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Luverne",
+          "commodity": "Soybeans",
+          "delivery": "Dec 2027",
+          "cash_usd_per_bu": 12.3,
+          "basis_cents_per_bu": -64.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Luverne",
+          "commodity": "Soybeans",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 12.3,
+          "basis_cents_per_bu": -64.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Luverne",
+          "commodity": "Soybeans",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 12.21,
+          "basis_cents_per_bu": -73.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Luverne",
+          "commodity": "Corn",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 4.29,
+          "basis_cents_per_bu": -45.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Luverne",
+          "commodity": "Corn",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 4.29,
+          "basis_cents_per_bu": -45.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Luverne",
+          "commodity": "Corn",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 4.29,
+          "basis_cents_per_bu": -45.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Luverne",
+          "commodity": "Corn",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 4.33,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Luverne",
+          "commodity": "Corn",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 4.33,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Magnolia",
+          "commodity": "Soybeans",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 12.27,
+          "basis_cents_per_bu": -51.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Magnolia",
+          "commodity": "Soybeans",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 12.32,
+          "basis_cents_per_bu": -46.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Magnolia",
+          "commodity": "Soybeans",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 12.39,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Magnolia",
+          "commodity": "Soybeans",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 12.39,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Magnolia",
+          "commodity": "Soybeans",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 12.3,
+          "basis_cents_per_bu": -64.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Magnolia",
+          "commodity": "Corn",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 4.18,
+          "basis_cents_per_bu": -56.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Magnolia",
+          "commodity": "Corn",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 4.18,
+          "basis_cents_per_bu": -56.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Magnolia",
+          "commodity": "Corn",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 4.22,
+          "basis_cents_per_bu": -52.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Magnolia",
+          "commodity": "Corn",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 4.26,
+          "basis_cents_per_bu": -62.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Magnolia",
+          "commodity": "Corn",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 4.26,
+          "basis_cents_per_bu": -62.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Marshall",
+          "commodity": "Soybeans",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 12.16,
+          "basis_cents_per_bu": -62.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Marshall",
+          "commodity": "Soybeans",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 12.22,
+          "basis_cents_per_bu": -56.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Marshall",
+          "commodity": "Soybeans",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 12.31,
+          "basis_cents_per_bu": -63.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Marshall",
+          "commodity": "Soybeans",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 12.31,
+          "basis_cents_per_bu": -63.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Marshall",
+          "commodity": "Soybeans",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 12.22,
+          "basis_cents_per_bu": -72.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Pipestone",
+          "commodity": "Soybeans",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 12.29,
+          "basis_cents_per_bu": -49.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Pipestone",
+          "commodity": "Soybeans",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 12.32,
+          "basis_cents_per_bu": -46.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Pipestone",
+          "commodity": "Soybeans",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 12.39,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Pipestone",
+          "commodity": "Soybeans",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 12.39,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Pipestone",
+          "commodity": "Soybeans",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 12.3,
+          "basis_cents_per_bu": -64.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Pipestone",
+          "commodity": "Corn",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 4.19,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Pipestone",
+          "commodity": "Corn",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 4.19,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Pipestone",
+          "commodity": "Corn",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 4.23,
+          "basis_cents_per_bu": -51.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Pipestone",
+          "commodity": "Corn",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 4.27,
+          "basis_cents_per_bu": -61.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Pipestone",
+          "commodity": "Corn",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 4.27,
+          "basis_cents_per_bu": -61.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Ruthton",
+          "commodity": "Soybeans",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 12.29,
+          "basis_cents_per_bu": -49.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Ruthton",
+          "commodity": "Soybeans",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 12.32,
+          "basis_cents_per_bu": -46.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Ruthton",
+          "commodity": "Soybeans",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 12.39,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Ruthton",
+          "commodity": "Soybeans",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 12.39,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Ruthton",
+          "commodity": "Soybeans",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 12.3,
+          "basis_cents_per_bu": -64.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Ruthton",
+          "commodity": "Corn",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 4.19,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Ruthton",
+          "commodity": "Corn",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 4.19,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Ruthton",
+          "commodity": "Corn",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 4.23,
+          "basis_cents_per_bu": -51.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Ruthton",
+          "commodity": "Corn",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 4.27,
+          "basis_cents_per_bu": -61.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Ruthton",
+          "commodity": "Corn",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 4.27,
+          "basis_cents_per_bu": -61.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Tracy",
+          "commodity": "Soybeans",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 12.19,
+          "basis_cents_per_bu": -59.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Tracy",
+          "commodity": "Soybeans",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 12.27,
+          "basis_cents_per_bu": -51.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Tracy",
+          "commodity": "Soybeans",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 12.39,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Tracy",
+          "commodity": "Soybeans",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 12.39,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Tracy",
+          "commodity": "Soybeans",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 12.3,
+          "basis_cents_per_bu": -64.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Tracy",
+          "commodity": "Corn",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 4.2,
+          "basis_cents_per_bu": -54.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Tracy",
+          "commodity": "Corn",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 4.18,
+          "basis_cents_per_bu": -56.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Tracy",
+          "commodity": "Corn",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 4.18,
+          "basis_cents_per_bu": -56.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Tracy",
+          "commodity": "Corn",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 4.22,
+          "basis_cents_per_bu": -66.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Tracy",
+          "commodity": "Corn",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 4.22,
+          "basis_cents_per_bu": -66.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Worthing Ag Grain",
+          "commodity": "Soybeans",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 12.28,
+          "basis_cents_per_bu": -50.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Worthing Ag Grain",
+          "commodity": "Soybeans",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 12.28,
+          "basis_cents_per_bu": -50.0,
+          "futures_month": "ZSX26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Worthing Ag Grain",
+          "commodity": "Soybeans",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 12.39,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Worthing Ag Grain",
+          "commodity": "Soybeans",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 12.44,
+          "basis_cents_per_bu": -50.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Worthing Ag Grain",
+          "commodity": "Soybeans",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 12.35,
+          "basis_cents_per_bu": -59.0,
+          "futures_month": "ZSF27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Worthing Ag Grain",
+          "commodity": "Corn",
+          "delivery": "Oct 2026",
+          "cash_usd_per_bu": 4.24,
+          "basis_cents_per_bu": -50.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Worthing Ag Grain",
+          "commodity": "Corn",
+          "delivery": "Nov 2026",
+          "cash_usd_per_bu": 4.24,
+          "basis_cents_per_bu": -50.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Worthing Ag Grain",
+          "commodity": "Corn",
+          "delivery": "Dec 2026",
+          "cash_usd_per_bu": 4.26,
+          "basis_cents_per_bu": -48.0,
+          "futures_month": "ZCZ26",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Worthing Ag Grain",
+          "commodity": "Corn",
+          "delivery": "Jan 2027",
+          "cash_usd_per_bu": 4.31,
+          "basis_cents_per_bu": -57.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        },
+        {
+          "source": "CHS Brandon",
+          "location": "Worthing Ag Grain",
+          "commodity": "Corn",
+          "delivery": "Feb 2027",
+          "cash_usd_per_bu": 4.34,
+          "basis_cents_per_bu": -54.0,
+          "futures_month": "ZCH27",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "frame_url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "source_updated": "Not published in captured text",
+          "basis_status": "posted"
+        }
+      ],
+      "conflicts": [],
+      "error": "",
+      "frames": [
+        {
+          "url": "https://www.chsbrandon.com/grain/cash-bids/",
+          "table_count": 0,
+          "text_length": 8214
+        }
+      ]
+    },
+    {
+      "source": "New Vision",
+      "url": "https://newvision.coop/current-grain-prices/?format=table&groupby=location&setLocation=20359&commodity=",
+      "status": "200",
+      "tables": [],
+      "bids": [],
+      "conflicts": [],
+      "error": "No verified bid rows extracted: site may have no data or require different parser. Inspect screenshot and text.",
+      "frames": [
+        {
+          "url": "https://newvision.coop/current-grain-prices/?format=table&groupby=location&setLocation=20359&commodity=",
+          "table_count": 0,
+          "text_length": 877
+        }
+      ]
+    },
+    {
+      "source": "Chandler Feed",
+      "url": "https://www.chandlerfeed.com/cash-bids",
+      "status": "200",
+      "tables": [
+        {
+          "kind": "table",
+          "location": "Chandler",
+          "commodity": "Soybeans",
+          "previous": ":26 PMJan 2712.50-0.451294-6-9-4Jan 27 Soybeans 12:26 PMFeb 2712.55-0.501304-6-9-2Mar 27 Soybeans 12:26 PMMarch 2712.55-0.501304-6-9-2Mar 27 Soybeans 12:26 PMMay 2712.64-0.501313-4-9-4May 27 Soybeans 12:26 PMJuly 2712.59-0.601319-2-9-4Jul 27 Soybeans 12:24 PMNC 2711.78-0.751252-4-5-4Nov 27 Soybeans 12:26 PM\n                    \n                    \n                    \n\t\t\t\n                        ",
+          "headers": [],
+          "rows": [],
+          "snippet": "Data provided by Bushel All prices delayed 10 minutes.",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids"
+        }
+      ],
+      "bids": [
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Corn",
+          "delivery": "NC 26",
+          "cash_usd_per_bu": 4.24,
+          "basis_cents_per_bu": -50.0,
+          "futures_month": "Dec 26 Corn",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Corn",
+          "delivery": "Dec 26",
+          "cash_usd_per_bu": 4.24,
+          "basis_cents_per_bu": -50.0,
+          "futures_month": "Dec 26 Corn",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Corn",
+          "delivery": "Jan 27",
+          "cash_usd_per_bu": 4.34,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "Mar 27 Corn",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Corn",
+          "delivery": "Feb 27",
+          "cash_usd_per_bu": 4.34,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "Mar 27 Corn",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Corn",
+          "delivery": "March 27",
+          "cash_usd_per_bu": 4.34,
+          "basis_cents_per_bu": -55.0,
+          "futures_month": "Mar 27 Corn",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Corn",
+          "delivery": "May 27",
+          "cash_usd_per_bu": 4.37,
+          "basis_cents_per_bu": -60.0,
+          "futures_month": "May 27 Corn",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Corn",
+          "delivery": "July 27",
+          "cash_usd_per_bu": 4.43,
+          "basis_cents_per_bu": -60.0,
+          "futures_month": "Jul 27 Corn",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Corn",
+          "delivery": "NC 27",
+          "cash_usd_per_bu": 4.39,
+          "basis_cents_per_bu": -70.0,
+          "futures_month": "Dec 27 Corn",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Soybeans",
+          "delivery": "NC 26",
+          "cash_usd_per_bu": 12.3,
+          "basis_cents_per_bu": -48.0,
+          "futures_month": "Nov 26 Soybeans",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Soybeans",
+          "delivery": "Dec 26",
+          "cash_usd_per_bu": 12.45,
+          "basis_cents_per_bu": -50.0,
+          "futures_month": "Jan 27 Soybeans",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Soybeans",
+          "delivery": "Jan 27",
+          "cash_usd_per_bu": 12.5,
+          "basis_cents_per_bu": -45.0,
+          "futures_month": "Jan 27 Soybeans",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Soybeans",
+          "delivery": "Feb 27",
+          "cash_usd_per_bu": 12.55,
+          "basis_cents_per_bu": -50.0,
+          "futures_month": "Mar 27 Soybeans",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Soybeans",
+          "delivery": "March 27",
+          "cash_usd_per_bu": 12.55,
+          "basis_cents_per_bu": -50.0,
+          "futures_month": "Mar 27 Soybeans",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Soybeans",
+          "delivery": "May 27",
+          "cash_usd_per_bu": 12.64,
+          "basis_cents_per_bu": -50.0,
+          "futures_month": "May 27 Soybeans",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Soybeans",
+          "delivery": "July 27",
+          "cash_usd_per_bu": 12.59,
+          "basis_cents_per_bu": -60.0,
+          "futures_month": "Jul 27 Soybeans",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        },
+        {
+          "source": "Chandler Feed",
+          "location": "Chandler",
+          "commodity": "Soybeans",
+          "delivery": "NC 27",
+          "cash_usd_per_bu": 11.78,
+          "basis_cents_per_bu": -75.0,
+          "futures_month": "Nov 27 Soybeans",
+          "captured_at_ct": "2026-10-09 12:36:26 PM CDT",
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "frame_url": "https://www.chandlerfeed.com/cash-bids",
+          "source_updated": "Cash bids for Friday, October 09, 2026",
+          "basis_status": "posted"
+        }
+      ],
+      "conflicts": [],
+      "error": "",
+      "frames": [
+        {
+          "url": "https://www.chandlerfeed.com/cash-bids",
+          "table_count": 1,
+          "text_length": 1880
+        },
+        {
+          "url": "about:blank",
+          "table_count": 0,
+          "text_length": 0
+        }
+      ]
+    },
+    {
+      "source": "CFE",
+      "url": "https://farmbucks.com/grain-prices/cfe",
+      "status": "200",
+      "tables": [
+        {
+          "kind": "table",
+          "location": "Rushmore",
+          "commodity": "Corn",
+          "previous": "                             Lake Park, Iowa\n                                Larchwood, Iowa\n                                Ocheyedan, Iowa\n                                Rock Rapids, Iowa\n                                Rock Valley, Iowa\n                                Rushmore, Minnesota\n                                Sibley, Iowa\n                        \n                    \n                ",
+          "headers": [
+            "Location",
+            "Delivery",
+            "Cash Price"
+          ],
+          "rows": [
+            [
+              "Location",
+              "Delivery",
+              "Cash Price"
+            ],
+            [
+              "Allendorf, Iowa Compare prices",
+              "October 2026",
+              "USD 4.27"
+            ],
+            [
+              "November 2026",
+              "USD 4.27"
+            ],
+            [
+              "December 2026",
+              "USD 4.29"
+            ],
+            [
+              "January 2027",
+              "USD 4.32"
+            ],
+            [
+              "February 2027",
+              "USD 4.37"
+            ],
+            [
+              "March 2027",
+              "USD 4.42"
+            ],
+            [
+              "April 2027",
+              "USD 4.47"
+            ],
+            [
+              "May 2027",
+              "USD 4.50"
+            ],
+            [
+              "June 2027",
+              "USD 4.56"
+            ],
+            [
+              "July 2027",
+              "USD 4.60"
+            ],
+            [
+              "November 2027",
+              "USD 4.52"
+            ],
+            [
+              "Alvord, Iowa Compare prices",
+              "October 2026",
+              "USD 4.31"
+            ],
+            [
+              "November 2026",
+              "USD 4.31"
+            ],
+            [
+              "December 2026",
+              "USD 4.33"
+            ],
+            [
+              "January 2027",
+              "USD 4.36"
+            ],
+            [
+              "February 2027",
+              "USD 4.41"
+            ],
+            [
+              "March 2027",
+              "USD 4.46"
+            ],
+            [
+              "April 2027",
+              "USD 4.51"
+            ],
+            [
+              "May 2027",
+              "USD 4.54"
+            ],
+            [
+              "June 2027",
+              "USD 4.60"
+            ],
+            [
+              "July 2027",
+              "USD 4.64"
+            ],
+            [
+              "November 2027",
+              "USD 4.56"
+            ],
+            [
+              "Ashton, Iowa Compare prices",
+              "October 2026",
+              "USD 4.39"
+            ],
+            [
+              "November 2026",
+              "USD 4.39"
+            ],
+            [
+              "December 2026",
+              "USD 4.41"
+            ],
+            [
+              "January 2027",
+              "USD 4.44"
+            ],
+            [
+              "February 2027",
+              "USD 4.49"
+            ],
+            [
+              "March 2027",
+              "USD 4.54"
+            ],
+            [
+              "April 2027",
+              "USD 4.59"
+            ],
+            [
+              "May 2027",
+              "USD 4.62"
+            ],
+            [
+              "June 2027",
+              "USD 4.68"
+            ],
+            [
+              "July 2027",
+              "USD 4.72"
+            ],
+            [
+              "November 2027",
+              "USD 4.64"
+            ],
+            [
+              "Bigelow, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.30"
+            ],
+            [
+              "November 2026",
+              "USD 4.30"
+            ],
+            [
+              "December 2026",
+              "USD 4.32"
+            ],
+            [
+              "January 2027",
+              "USD 4.32"
+            ],
+            [
+              "February 2027",
+              "USD 4.37"
+            ],
+            [
+              "March 2027",
+              "USD 4.42"
+            ],
+            [
+              "April 2027",
+              "USD 4.47"
+            ],
+            [
+              "May 2027",
+              "USD 4.50"
+            ],
+            [
+              "June 2027",
+              "USD 4.56"
+            ],
+            [
+              "July 2027",
+              "USD 4.60"
+            ],
+            [
+              "November 2027",
+              "USD 4.52"
+            ],
+            [
+              "George, Iowa Compare prices",
+              "October 2026",
+              "USD 4.35"
+            ],
+            [
+              "November 2026",
+              "USD 4.35"
+            ],
+            [
+              "December 2026",
+              "USD 4.37"
+            ],
+            [
+              "January 2027",
+              "USD 4.40"
+            ],
+            [
+              "February 2027",
+              "USD 4.45"
+            ],
+            [
+              "March 2027",
+              "USD 4.50"
+            ],
+            [
+              "April 2027",
+              "USD 4.55"
+            ],
+            [
+              "May 2027",
+              "USD 4.58"
+            ],
+            [
+              "June 2027",
+              "USD 4.64"
+            ],
+            [
+              "July 2027",
+              "USD 4.68"
+            ],
+            [
+              "November 2027",
+              "USD 4.60"
+            ],
+            [
+              "Harris, Iowa Compare prices",
+              "October 2026",
+              "USD 4.32"
+            ],
+            [
+              "November 2026",
+              "USD 4.32"
+            ],
+            [
+              "December 2026",
+              "USD 4.34"
+            ],
+            [
+              "January 2027",
+              "USD 4.37"
+            ],
+            [
+              "February 2027",
+              "USD 4.42"
+            ],
+            [
+              "March 2027",
+              "USD 4.47"
+            ],
+            [
+              "April 2027",
+              "USD 4.52"
+            ],
+            [
+              "May 2027",
+              "USD 4.55"
+            ],
+            [
+              "June 2027",
+              "USD 4.61"
+            ],
+            [
+              "July 2027",
+              "USD 4.65"
+            ],
+            [
+              "November 2027",
+              "USD 4.57"
+            ],
+            [
+              "Hartley, Iowa Compare prices",
+              "October 2026",
+              "USD 4.39"
+            ],
+            [
+              "November 2026",
+              "USD 4.39"
+            ],
+            [
+              "December 2026",
+              "USD 4.41"
+            ],
+            [
+              "January 2027",
+              "USD 4.44"
+            ],
+            [
+              "February 2027",
+              "USD 4.49"
+            ],
+            [
+              "March 2027",
+              "USD 4.54"
+            ],
+            [
+              "April 2027",
+              "USD 4.59"
+            ],
+            [
+              "May 2027",
+              "USD 4.62"
+            ],
+            [
+              "June 2027",
+              "USD 4.68"
+            ],
+            [
+              "July 2027",
+              "USD 4.72"
+            ],
+            [
+              "November 2027",
+              "USD 4.64"
+            ],
+            [
+              "Hawarden, Iowa Compare prices",
+              "October 2026",
+              "USD 4.31"
+            ],
+            [
+              "November 2026",
+              "USD 4.31"
+            ],
+            [
+              "December 2026",
+              "USD 4.33"
+            ],
+            [
+              "January 2027",
+              "USD 4.42"
+            ],
+            [
+              "February 2027",
+              "USD 4.47"
+            ],
+            [
+              "March 2027",
+              "USD 4.52"
+            ],
+            [
+              "April 2027",
+              "USD 4.57"
+            ],
+            [
+              "May 2027",
+              "USD 4.60"
+            ],
+            [
+              "June 2027",
+              "USD 4.66"
+            ],
+            [
+              "July 2027",
+              "USD 4.70"
+            ],
+            [
+              "November 2027",
+              "USD 4.62"
+            ],
+            [
+              "Hudson, South Dakota Compare prices",
+              "October 2026",
+              "USD 4.33"
+            ],
+            [
+              "November 2026",
+              "USD 4.33"
+            ],
+            [
+              "December 2026",
+              "USD 4.35"
+            ],
+            [
+              "January 2027",
+              "USD 4.44"
+            ],
+            [
+              "February 2027",
+              "USD 4.49"
+            ],
+            [
+              "March 2027",
+              "USD 4.54"
+            ],
+            [
+              "April 2027",
+              "USD 4.59"
+            ],
+            [
+              "May 2027",
+              "USD 4.62"
+            ],
+            [
+              "June 2027",
+              "USD 4.68"
+            ],
+            [
+              "July 2027",
+              "USD 4.72"
+            ],
+            [
+              "November 2027",
+              "USD 4.64"
+            ],
+            [
+              "Inwood, Iowa Compare prices",
+              "October 2026",
+              "USD 4.39"
+            ],
+            [
+              "November 2026",
+              "USD 4.39"
+            ],
+            [
+              "December 2026",
+              "USD 4.41"
+            ],
+            [
+              "January 2027",
+              "USD 4.44"
+            ],
+            [
+              "February 2027",
+              "USD 4.49"
+            ],
+            [
+              "March 2027",
+              "USD 4.54"
+            ],
+            [
+              "April 2027",
+              "USD 4.59"
+            ],
+            [
+              "May 2027",
+              "USD 4.62"
+            ],
+            [
+              "June 2027",
+              "USD 4.68"
+            ],
+            [
+              "July 2027",
+              "USD 4.72"
+            ],
+            [
+              "November 2027",
+              "USD 4.64"
+            ],
+            [
+              "Lake Park, Iowa Compare prices",
+              "October 2026",
+              "USD 4.32"
+            ],
+            [
+              "November 2026",
+              "USD 4.32"
+            ],
+            [
+              "December 2026",
+              "USD 4.34"
+            ],
+            [
+              "January 2027",
+              "USD 4.37"
+            ],
+            [
+              "February 2027",
+              "USD 4.42"
+            ],
+            [
+              "March 2027",
+              "USD 4.47"
+            ],
+            [
+              "April 2027",
+              "USD 4.52"
+            ],
+            [
+              "May 2027",
+              "USD 4.55"
+            ],
+            [
+              "June 2027",
+              "USD 4.61"
+            ],
+            [
+              "July 2027",
+              "USD 4.65"
+            ],
+            [
+              "November 2027",
+              "USD 4.57"
+            ],
+            [
+              "Larchwood, Iowa Compare prices",
+              "October 2026",
+              "USD 4.30"
+            ],
+            [
+              "November 2026",
+              "USD 4.30"
+            ],
+            [
+              "December 2026",
+              "USD 4.32"
+            ],
+            [
+              "January 2027",
+              "USD 4.35"
+            ],
+            [
+              "February 2027",
+              "USD 4.40"
+            ],
+            [
+              "March 2027",
+              "USD 4.45"
+            ],
+            [
+              "April 2027",
+              "USD 4.50"
+            ],
+            [
+              "May 2027",
+              "USD 4.53"
+            ],
+            [
+              "June 2027",
+              "USD 4.59"
+            ],
+            [
+              "July 2027",
+              "USD 4.63"
+            ],
+            [
+              "November 2027",
+              "USD 4.55"
+            ],
+            [
+              "Ocheyedan, Iowa Compare prices",
+              "October 2026",
+              "USD 4.39"
+            ],
+            [
+              "November 2026",
+              "USD 4.39"
+            ],
+            [
+              "December 2026",
+              "USD 4.41"
+            ],
+            [
+              "January 2027",
+              "USD 4.44"
+            ],
+            [
+              "February 2027",
+              "USD 4.49"
+            ],
+            [
+              "March 2027",
+              "USD 4.54"
+            ],
+            [
+              "April 2027",
+              "USD 4.59"
+            ],
+            [
+              "May 2027",
+              "USD 4.62"
+            ],
+            [
+              "June 2027",
+              "USD 4.68"
+            ],
+            [
+              "July 2027",
+              "USD 4.72"
+            ],
+            [
+              "November 2027",
+              "USD 4.64"
+            ],
+            [
+              "Rock Rapids, Iowa Compare prices",
+              "October 2026",
+              "USD 4.34"
+            ],
+            [
+              "November 2026",
+              "USD 4.34"
+            ],
+            [
+              "December 2026",
+              "USD 4.36"
+            ],
+            [
+              "January 2027",
+              "USD 4.39"
+            ],
+            [
+              "February 2027",
+              "USD 4.44"
+            ],
+            [
+              "March 2027",
+              "USD 4.49"
+            ],
+            [
+              "April 2027",
+              "USD 4.54"
+            ],
+            [
+              "May 2027",
+              "USD 4.57"
+            ],
+            [
+              "June 2027",
+              "USD 4.63"
+            ],
+            [
+              "July 2027",
+              "USD 4.67"
+            ],
+            [
+              "November 2027",
+              "USD 4.59"
+            ],
+            [
+              "Rock Valley, Iowa Compare prices",
+              "October 2026",
+              "USD 4.39"
+            ],
+            [
+              "November 2026",
+              "USD 4.39"
+            ],
+            [
+              "December 2026",
+              "USD 4.41"
+            ],
+            [
+              "January 2027",
+              "USD 4.44"
+            ],
+            [
+              "February 2027",
+              "USD 4.49"
+            ],
+            [
+              "March 2027",
+              "USD 4.54"
+            ],
+            [
+              "April 2027",
+              "USD 4.59"
+            ],
+            [
+              "May 2027",
+              "USD 4.62"
+            ],
+            [
+              "June 2027",
+              "USD 4.68"
+            ],
+            [
+              "July 2027",
+              "USD 4.72"
+            ],
+            [
+              "November 2027",
+              "USD 4.64"
+            ],
+            [
+              "Rushmore, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.27"
+            ],
+            [
+              "November 2026",
+              "USD 4.30"
+            ],
+            [
+              "December 2026",
+              "USD 4.32"
+            ],
+            [
+              "January 2027",
+              "USD 4.32"
+            ],
+            [
+              "February 2027",
+              "USD 4.37"
+            ],
+            [
+              "March 2027",
+              "USD 4.42"
+            ],
+            [
+              "April 2027",
+              "USD 4.47"
+            ],
+            [
+              "May 2027",
+              "USD 4.50"
+            ],
+            [
+              "June 2027",
+              "USD 4.56"
+            ],
+            [
+              "July 2027",
+              "USD 4.60"
+            ],
+            [
+              "November 2027",
+              "USD 4.52"
+            ],
+            [
+              "Sibley, Iowa Compare prices",
+              "October 2026",
+              "USD 4.32"
+            ],
+            [
+              "November 2026",
+              "USD 4.32"
+            ],
+            [
+              "December 2026",
+              "USD 4.34"
+            ],
+            [
+              "January 2027",
+              "USD 4.37"
+            ],
+            [
+              "February 2027",
+              "USD 4.42"
+            ],
+            [
+              "March 2027",
+              "USD 4.47"
+            ],
+            [
+              "April 2027",
+              "USD 4.52"
+            ],
+            [
+              "May 2027",
+              "USD 4.55"
+            ],
+            [
+              "June 2027",
+              "USD 4.61"
+            ],
+            [
+              "July 2027",
+              "USD 4.65"
+            ],
+            [
+              "November 2027",
+              "USD 4.57"
+            ]
+          ],
+          "snippet": "CFE Cash Bids per Bushel in USD for #2 Yellow Corn in Iowa, Minnesota and South Dakota • Disclaimer Location Delivery Cash Price Allendorf, Iowa Compare prices October 2026 USD 4.27 November 2026 USD 4.27 December 2026 USD 4.29 January 2027 USD 4.32 February 2027 USD 4.37 March 2027 USD 4.42 April 2027 USD 4.47 May 2027 USD 4.50 June 2027 USD 4.56 July 2027 USD 4.60 November 2027 USD 4.52 Alvord, Iowa Compare prices October 2026 USD 4.31 November 2026 USD 4.31 December 2026 USD 4.33 January 2027 USD 4.36 February 2027 USD 4.41 March 2027 USD 4.46 April 2027 USD 4.51 May 2027 USD 4.54 June 2027 USD 4.60 July 2027 USD 4.64 November 2027 USD 4.56 Ashton, Iowa Compare prices October 2026 USD 4.39 November 2026 USD 4.39 December 2026 USD 4.41 January 2027 USD 4.44 February 2027 USD 4.49 March 2027 USD 4.54 April 2027 USD 4.59 May 2027 USD 4.62 June 2027 USD 4.68 July 2027 USD 4.72 November 2027 USD 4.64 Bigelow, Minnesota Compare prices October 2026 USD 4.30 November 2026 USD 4.30 December 2026 USD 4.32 January 2027 USD 4.32 February 2027 USD 4.37 March 2027 USD 4.42 April 2027 USD 4.47 May 2027 USD 4.50 June 2027 USD 4.56 July 2027 USD 4.60 November 2027 USD 4.52 George, Iowa Compare prices October 2026 USD 4.35 November 2026 USD 4.35 December 2026 USD 4.37 January 2027 USD 4.40 February 2027 USD 4.45 March 2027 USD 4.50 April 2027 USD 4.55 May 2027 USD 4.58 June 2027 USD 4.64 July 2027 USD 4.68 November 2027 USD 4.60 Harris, Iowa Compare prices October 2026 USD 4.32 November 202",
+          "frame_url": "https://farmbucks.com/grain-prices/cfe"
+        },
+        {
+          "kind": "table",
+          "location": "Rushmore",
+          "commodity": "Soybeans",
+          "previous": "                                Larchwood, Iowa\n                                Lester, Iowa\n                                Ocheyedan, Iowa\n                                Rock Rapids, Iowa\n                                Rock Valley, Iowa\n                                Rushmore, Minnesota\n                                Sibley, Iowa\n                        \n                    \n                ",
+          "headers": [
+            "Location",
+            "Delivery",
+            "Cash Price"
+          ],
+          "rows": [
+            [
+              "Location",
+              "Delivery",
+              "Cash Price"
+            ],
+            [
+              "Allendorf, Iowa Compare prices",
+              "October 2026",
+              "USD 12.24"
+            ],
+            [
+              "November 2026",
+              "USD 12.24"
+            ],
+            [
+              "December 2026",
+              "USD 12.30"
+            ],
+            [
+              "January 2027",
+              "USD 12.30"
+            ],
+            [
+              "February 2027",
+              "USD 12.35"
+            ],
+            [
+              "March 2027",
+              "USD 12.40"
+            ],
+            [
+              "April 2027",
+              "USD 12.46"
+            ],
+            [
+              "May 2027",
+              "USD 12.51"
+            ],
+            [
+              "June 2027",
+              "USD 12.55"
+            ],
+            [
+              "July 2027",
+              "USD 12.60"
+            ],
+            [
+              "October 2027",
+              "USD 11.78"
+            ],
+            [
+              "Alvord, Iowa Compare prices",
+              "October 2026",
+              "USD 12.19"
+            ],
+            [
+              "November 2026",
+              "USD 12.19"
+            ],
+            [
+              "December 2026",
+              "USD 12.25"
+            ],
+            [
+              "January 2027",
+              "USD 12.25"
+            ],
+            [
+              "February 2027",
+              "USD 12.30"
+            ],
+            [
+              "March 2027",
+              "USD 12.35"
+            ],
+            [
+              "April 2027",
+              "USD 12.41"
+            ],
+            [
+              "May 2027",
+              "USD 12.46"
+            ],
+            [
+              "June 2027",
+              "USD 12.50"
+            ],
+            [
+              "July 2027",
+              "USD 12.55"
+            ],
+            [
+              "October 2027",
+              "USD 11.73"
+            ],
+            [
+              "Ashton, Iowa Compare prices",
+              "October 2026",
+              "USD 12.23"
+            ],
+            [
+              "November 2026",
+              "USD 12.23"
+            ],
+            [
+              "December 2026",
+              "USD 12.29"
+            ],
+            [
+              "January 2027",
+              "USD 12.29"
+            ],
+            [
+              "February 2027",
+              "USD 12.34"
+            ],
+            [
+              "March 2027",
+              "USD 12.39"
+            ],
+            [
+              "April 2027",
+              "USD 12.45"
+            ],
+            [
+              "May 2027",
+              "USD 12.50"
+            ],
+            [
+              "June 2027",
+              "USD 12.54"
+            ],
+            [
+              "July 2027",
+              "USD 12.59"
+            ],
+            [
+              "October 2027",
+              "USD 11.77"
+            ],
+            [
+              "Bigelow, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.30"
+            ],
+            [
+              "November 2026",
+              "USD 12.30"
+            ],
+            [
+              "December 2026",
+              "USD 12.36"
+            ],
+            [
+              "January 2027",
+              "USD 12.36"
+            ],
+            [
+              "February 2027",
+              "USD 12.41"
+            ],
+            [
+              "March 2027",
+              "USD 12.46"
+            ],
+            [
+              "April 2027",
+              "USD 12.52"
+            ],
+            [
+              "May 2027",
+              "USD 12.57"
+            ],
+            [
+              "June 2027",
+              "USD 12.61"
+            ],
+            [
+              "July 2027",
+              "USD 12.66"
+            ],
+            [
+              "October 2027",
+              "USD 11.84"
+            ],
+            [
+              "George, Iowa Compare prices",
+              "October 2026",
+              "USD 12.23"
+            ],
+            [
+              "November 2026",
+              "USD 12.23"
+            ],
+            [
+              "December 2026",
+              "USD 12.29"
+            ],
+            [
+              "January 2027",
+              "USD 12.29"
+            ],
+            [
+              "February 2027",
+              "USD 12.34"
+            ],
+            [
+              "March 2027",
+              "USD 12.39"
+            ],
+            [
+              "April 2027",
+              "USD 12.45"
+            ],
+            [
+              "May 2027",
+              "USD 12.50"
+            ],
+            [
+              "June 2027",
+              "USD 12.54"
+            ],
+            [
+              "July 2027",
+              "USD 12.59"
+            ],
+            [
+              "October 2027",
+              "USD 11.77"
+            ],
+            [
+              "Harris, Iowa Compare prices",
+              "October 2026",
+              "USD 12.23"
+            ],
+            [
+              "November 2026",
+              "USD 12.23"
+            ],
+            [
+              "December 2026",
+              "USD 12.29"
+            ],
+            [
+              "January 2027",
+              "USD 12.29"
+            ],
+            [
+              "February 2027",
+              "USD 12.34"
+            ],
+            [
+              "March 2027",
+              "USD 12.39"
+            ],
+            [
+              "April 2027",
+              "USD 12.45"
+            ],
+            [
+              "May 2027",
+              "USD 12.50"
+            ],
+            [
+              "June 2027",
+              "USD 12.54"
+            ],
+            [
+              "July 2027",
+              "USD 12.59"
+            ],
+            [
+              "October 2027",
+              "USD 11.77"
+            ],
+            [
+              "Hartley, Iowa Compare prices",
+              "October 2026",
+              "USD 12.23"
+            ],
+            [
+              "November 2026",
+              "USD 12.23"
+            ],
+            [
+              "December 2026",
+              "USD 12.29"
+            ],
+            [
+              "January 2027",
+              "USD 12.29"
+            ],
+            [
+              "February 2027",
+              "USD 12.34"
+            ],
+            [
+              "March 2027",
+              "USD 12.39"
+            ],
+            [
+              "April 2027",
+              "USD 12.45"
+            ],
+            [
+              "May 2027",
+              "USD 12.50"
+            ],
+            [
+              "June 2027",
+              "USD 12.54"
+            ],
+            [
+              "July 2027",
+              "USD 12.59"
+            ],
+            [
+              "October 2027",
+              "USD 11.77"
+            ],
+            [
+              "Hawarden, Iowa Compare prices",
+              "October 2026",
+              "USD 12.19"
+            ],
+            [
+              "November 2026",
+              "USD 12.19"
+            ],
+            [
+              "December 2026",
+              "USD 12.25"
+            ],
+            [
+              "January 2027",
+              "USD 12.25"
+            ],
+            [
+              "February 2027",
+              "USD 12.30"
+            ],
+            [
+              "March 2027",
+              "USD 12.35"
+            ],
+            [
+              "April 2027",
+              "USD 12.41"
+            ],
+            [
+              "May 2027",
+              "USD 12.46"
+            ],
+            [
+              "June 2027",
+              "USD 12.50"
+            ],
+            [
+              "July 2027",
+              "USD 12.55"
+            ],
+            [
+              "October 2027",
+              "USD 11.73"
+            ],
+            [
+              "Hudson, South Dakota Compare prices",
+              "October 2026",
+              "USD 12.19"
+            ],
+            [
+              "November 2026",
+              "USD 12.19"
+            ],
+            [
+              "December 2026",
+              "USD 12.25"
+            ],
+            [
+              "January 2027",
+              "USD 12.25"
+            ],
+            [
+              "February 2027",
+              "USD 12.30"
+            ],
+            [
+              "March 2027",
+              "USD 12.35"
+            ],
+            [
+              "April 2027",
+              "USD 12.41"
+            ],
+            [
+              "May 2027",
+              "USD 12.46"
+            ],
+            [
+              "June 2027",
+              "USD 12.50"
+            ],
+            [
+              "July 2027",
+              "USD 12.55"
+            ],
+            [
+              "October 2027",
+              "USD 11.73"
+            ],
+            [
+              "Inwood, Iowa Compare prices",
+              "October 2026",
+              "USD 12.23"
+            ],
+            [
+              "November 2026",
+              "USD 12.23"
+            ],
+            [
+              "December 2026",
+              "USD 12.29"
+            ],
+            [
+              "January 2027",
+              "USD 12.29"
+            ],
+            [
+              "February 2027",
+              "USD 12.34"
+            ],
+            [
+              "March 2027",
+              "USD 12.39"
+            ],
+            [
+              "April 2027",
+              "USD 12.45"
+            ],
+            [
+              "May 2027",
+              "USD 12.50"
+            ],
+            [
+              "June 2027",
+              "USD 12.54"
+            ],
+            [
+              "July 2027",
+              "USD 12.59"
+            ],
+            [
+              "October 2027",
+              "USD 11.77"
+            ],
+            [
+              "Lake Park, Iowa Compare prices",
+              "October 2026",
+              "USD 12.29"
+            ],
+            [
+              "November 2026",
+              "USD 12.29"
+            ],
+            [
+              "December 2026",
+              "USD 12.35"
+            ],
+            [
+              "January 2027",
+              "USD 12.35"
+            ],
+            [
+              "February 2027",
+              "USD 12.40"
+            ],
+            [
+              "March 2027",
+              "USD 12.45"
+            ],
+            [
+              "April 2027",
+              "USD 12.51"
+            ],
+            [
+              "May 2027",
+              "USD 12.56"
+            ],
+            [
+              "June 2027",
+              "USD 12.60"
+            ],
+            [
+              "July 2027",
+              "USD 12.65"
+            ],
+            [
+              "October 2027",
+              "USD 11.83"
+            ],
+            [
+              "Larchwood, Iowa Compare prices",
+              "October 2026",
+              "USD 12.19"
+            ],
+            [
+              "November 2026",
+              "USD 12.19"
+            ],
+            [
+              "December 2026",
+              "USD 12.25"
+            ],
+            [
+              "January 2027",
+              "USD 12.25"
+            ],
+            [
+              "February 2027",
+              "USD 12.30"
+            ],
+            [
+              "March 2027",
+              "USD 12.35"
+            ],
+            [
+              "April 2027",
+              "USD 12.41"
+            ],
+            [
+              "May 2027",
+              "USD 12.46"
+            ],
+            [
+              "June 2027",
+              "USD 12.50"
+            ],
+            [
+              "July 2027",
+              "USD 12.55"
+            ],
+            [
+              "October 2027",
+              "USD 11.73"
+            ],
+            [
+              "Lester, Iowa Compare prices",
+              "October 2026",
+              "USD 12.23"
+            ],
+            [
+              "November 2026",
+              "USD 12.23"
+            ],
+            [
+              "December 2026",
+              "USD 12.29"
+            ],
+            [
+              "January 2027",
+              "USD 12.29"
+            ],
+            [
+              "February 2027",
+              "USD 12.34"
+            ],
+            [
+              "March 2027",
+              "USD 12.39"
+            ],
+            [
+              "April 2027",
+              "USD 12.45"
+            ],
+            [
+              "May 2027",
+              "USD 12.50"
+            ],
+            [
+              "June 2027",
+              "USD 12.54"
+            ],
+            [
+              "July 2027",
+              "USD 12.59"
+            ],
+            [
+              "October 2027",
+              "USD 11.77"
+            ],
+            [
+              "Ocheyedan, Iowa Compare prices",
+              "October 2026",
+              "USD 12.23"
+            ],
+            [
+              "November 2026",
+              "USD 12.23"
+            ],
+            [
+              "December 2026",
+              "USD 12.29"
+            ],
+            [
+              "January 2027",
+              "USD 12.29"
+            ],
+            [
+              "February 2027",
+              "USD 12.34"
+            ],
+            [
+              "March 2027",
+              "USD 12.39"
+            ],
+            [
+              "April 2027",
+              "USD 12.45"
+            ],
+            [
+              "May 2027",
+              "USD 12.50"
+            ],
+            [
+              "June 2027",
+              "USD 12.54"
+            ],
+            [
+              "July 2027",
+              "USD 12.59"
+            ],
+            [
+              "October 2027",
+              "USD 11.77"
+            ],
+            [
+              "Rock Rapids, Iowa Compare prices",
+              "October 2026",
+              "USD 12.19"
+            ],
+            [
+              "November 2026",
+              "USD 12.19"
+            ],
+            [
+              "December 2026",
+              "USD 12.25"
+            ],
+            [
+              "January 2027",
+              "USD 12.25"
+            ],
+            [
+              "February 2027",
+              "USD 12.30"
+            ],
+            [
+              "March 2027",
+              "USD 12.35"
+            ],
+            [
+              "April 2027",
+              "USD 12.41"
+            ],
+            [
+              "May 2027",
+              "USD 12.46"
+            ],
+            [
+              "June 2027",
+              "USD 12.50"
+            ],
+            [
+              "July 2027",
+              "USD 12.55"
+            ],
+            [
+              "October 2027",
+              "USD 11.73"
+            ],
+            [
+              "Rock Valley, Iowa Compare prices",
+              "October 2026",
+              "USD 12.19"
+            ],
+            [
+              "November 2026",
+              "USD 12.19"
+            ],
+            [
+              "December 2026",
+              "USD 12.25"
+            ],
+            [
+              "January 2027",
+              "USD 12.25"
+            ],
+            [
+              "February 2027",
+              "USD 12.30"
+            ],
+            [
+              "March 2027",
+              "USD 12.35"
+            ],
+            [
+              "April 2027",
+              "USD 12.41"
+            ],
+            [
+              "May 2027",
+              "USD 12.46"
+            ],
+            [
+              "June 2027",
+              "USD 12.50"
+            ],
+            [
+              "July 2027",
+              "USD 12.55"
+            ],
+            [
+              "October 2027",
+              "USD 11.73"
+            ],
+            [
+              "Rushmore, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.23"
+            ],
+            [
+              "November 2026",
+              "USD 12.23"
+            ],
+            [
+              "December 2026",
+              "USD 12.29"
+            ],
+            [
+              "January 2027",
+              "USD 12.29"
+            ],
+            [
+              "February 2027",
+              "USD 12.34"
+            ],
+            [
+              "March 2027",
+              "USD 12.39"
+            ],
+            [
+              "April 2027",
+              "USD 12.45"
+            ],
+            [
+              "May 2027",
+              "USD 12.50"
+            ],
+            [
+              "June 2027",
+              "USD 12.54"
+            ],
+            [
+              "July 2027",
+              "USD 12.59"
+            ],
+            [
+              "October 2027",
+              "USD 11.77"
+            ],
+            [
+              "Sibley, Iowa Compare prices",
+              "October 2026",
+              "USD 12.23"
+            ],
+            [
+              "November 2026",
+              "USD 12.23"
+            ],
+            [
+              "December 2026",
+              "USD 12.29"
+            ],
+            [
+              "January 2027",
+              "USD 12.29"
+            ],
+            [
+              "February 2027",
+              "USD 12.34"
+            ],
+            [
+              "March 2027",
+              "USD 12.39"
+            ],
+            [
+              "April 2027",
+              "USD 12.45"
+            ],
+            [
+              "May 2027",
+              "USD 12.50"
+            ],
+            [
+              "June 2027",
+              "USD 12.54"
+            ],
+            [
+              "July 2027",
+              "USD 12.59"
+            ],
+            [
+              "October 2027",
+              "USD 11.77"
+            ]
+          ],
+          "snippet": "CFE Cash Bids per Bushel in USD for #2 Yellow Soybeans in South Dakota, Iowa and Minnesota • Disclaimer Location Delivery Cash Price Allendorf, Iowa Compare prices October 2026 USD 12.24 November 2026 USD 12.24 December 2026 USD 12.30 January 2027 USD 12.30 February 2027 USD 12.35 March 2027 USD 12.40 April 2027 USD 12.46 May 2027 USD 12.51 June 2027 USD 12.55 July 2027 USD 12.60 October 2027 USD 11.78 Alvord, Iowa Compare prices October 2026 USD 12.19 November 2026 USD 12.19 December 2026 USD 12.25 January 2027 USD 12.25 February 2027 USD 12.30 March 2027 USD 12.35 April 2027 USD 12.41 May 2027 USD 12.46 June 2027 USD 12.50 July 2027 USD 12.55 October 2027 USD 11.73 Ashton, Iowa Compare prices October 2026 USD 12.23 November 2026 USD 12.23 December 2026 USD 12.29 January 2027 USD 12.29 February 2027 USD 12.34 March 2027 USD 12.39 April 2027 USD 12.45 May 2027 USD 12.50 June 2027 USD 12.54 July 2027 USD 12.59 October 2027 USD 11.77 Bigelow, Minnesota Compare prices October 2026 USD 12.30 November 2026 USD 12.30 December 2026 USD 12.36 January 2027 USD 12.36 February 2027 USD 12.41 March 2027 USD 12.46 April 2027 USD 12.52 May 2027 USD 12.57 June 2027 USD 12.61 July 2027 USD 12.66 October 2027 USD 11.84 George, Iowa Compare prices October 2026 USD 12.23 November 2026 USD 12.23 December 2026 USD 12.29 January 2027 USD 12.29 February 2027 USD 12.34 March 2027 USD 12.39 April 2027 USD 12.45 May 2027 USD 12.50 June 2027 USD 12.54 July 2027 USD 12.59 October 2027 USD 11.77 Harris, ",
+          "frame_url": "https://farmbucks.com/grain-prices/cfe"
+        }
+      ],
+      "bids": [],
+      "conflicts": [],
+      "error": "No verified bid rows extracted: site may have no data or require different parser. Inspect screenshot and text.",
+      "frames": [
+        {
+          "url": "https://farmbucks.com/grain-prices/cfe",
+          "table_count": 2,
+          "text_length": 21617
+        }
+      ]
+    },
+    {
+      "source": "POET",
+      "url": "https://farmbucks.com/grain-prices/poet",
+      "status": "200",
+      "tables": [
+        {
+          "kind": "table",
+          "location": "Chancellor",
+          "commodity": "Corn",
+          "previous": "itchell, South Dakota\n                                North Manchester, Indiana\n                                Portland, Indiana\n                                Preston, Minnesota\n                                Scotland, South Dakota\n                                Shelbyville, Indiana\n                                Shell Rock, Iowa\n                        \n                    \n                ",
+          "headers": [
+            "Location",
+            "Delivery",
+            "Cash Price"
+          ],
+          "rows": [
+            [
+              "Location",
+              "Delivery",
+              "Cash Price"
+            ],
+            [
+              "Alexandria, Indiana Compare prices",
+              "Oct–Nov 2026",
+              "USD 4.52"
+            ],
+            [
+              "December 2026",
+              "USD 4.72"
+            ],
+            [
+              "January 2027",
+              "USD 4.77"
+            ],
+            [
+              "February 2027",
+              "USD 4.87"
+            ],
+            [
+              "March 2027",
+              "USD 4.87"
+            ],
+            [
+              "April 2027",
+              "USD 4.95"
+            ],
+            [
+              "May 2027",
+              "USD 4.95"
+            ],
+            [
+              "Jun–Jul 2027",
+              "USD 5.01"
+            ],
+            [
+              "Arthur, Iowa Compare prices",
+              "Oct–Nov 2026",
+              "USD 4.37"
+            ],
+            [
+              "December 2026",
+              "USD 4.42"
+            ],
+            [
+              "January 2027",
+              "USD 4.52"
+            ],
+            [
+              "February 2027",
+              "USD 4.54"
+            ],
+            [
+              "March 2027",
+              "USD 4.57"
+            ],
+            [
+              "April 2027",
+              "USD 4.60"
+            ],
+            [
+              "May 2027",
+              "USD 4.63"
+            ],
+            [
+              "June 2027",
+              "USD 4.69"
+            ],
+            [
+              "July 2027",
+              "USD 4.69"
+            ],
+            [
+              "Ashton, Iowa Compare prices",
+              "October 2026",
+              "USD 4.42"
+            ],
+            [
+              "November 2026",
+              "USD 4.45"
+            ],
+            [
+              "December 2026",
+              "USD 4.47"
+            ],
+            [
+              "January 2027",
+              "USD 4.49"
+            ],
+            [
+              "February 2027",
+              "USD 4.52"
+            ],
+            [
+              "March 2027",
+              "USD 4.55"
+            ],
+            [
+              "April 2027",
+              "USD 4.59"
+            ],
+            [
+              "May 2027",
+              "USD 4.62"
+            ],
+            [
+              "June 2027",
+              "USD 4.70"
+            ],
+            [
+              "July 2027",
+              "USD 4.70"
+            ],
+            [
+              "Big Stone, South Dakota Compare prices",
+              "Oct 1–15, 2026",
+              "USD 4.07"
+            ],
+            [
+              "December 2026",
+              "USD 4.19"
+            ],
+            [
+              "January 2027",
+              "USD 4.31"
+            ],
+            [
+              "Bingham Lake, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.20"
+            ],
+            [
+              "November 2026",
+              "USD 4.22"
+            ],
+            [
+              "December 2026",
+              "USD 4.28"
+            ],
+            [
+              "January 2027",
+              "USD 4.42"
+            ],
+            [
+              "February 2027",
+              "USD 4.44"
+            ],
+            [
+              "March 2027",
+              "USD 4.47"
+            ],
+            [
+              "April 2027",
+              "USD 4.50"
+            ],
+            [
+              "May 2027",
+              "USD 4.50"
+            ],
+            [
+              "June 2027",
+              "USD 4.56"
+            ],
+            [
+              "July 2027",
+              "USD 4.56"
+            ],
+            [
+              "Caro, Michigan Compare prices",
+              "December 2026",
+              "USD 4.57"
+            ],
+            [
+              "January 2027",
+              "USD 4.69"
+            ],
+            [
+              "February 2027",
+              "USD 4.72"
+            ],
+            [
+              "March 2027",
+              "USD 4.74"
+            ],
+            [
+              "September 2027",
+              "USD 4.67"
+            ],
+            [
+              "Chancellor, South Dakota Compare prices",
+              "October 2026",
+              "USD 4.25"
+            ],
+            [
+              "November 2026",
+              "USD 4.30"
+            ],
+            [
+              "December 2026",
+              "USD 4.37"
+            ],
+            [
+              "January 2027",
+              "USD 4.38"
+            ],
+            [
+              "February 2027",
+              "USD 4.40"
+            ],
+            [
+              "March 2027",
+              "USD 4.42"
+            ],
+            [
+              "April 2027",
+              "USD 4.45"
+            ],
+            [
+              "May 2027",
+              "USD 4.50"
+            ],
+            [
+              "June 2027",
+              "USD 4.51"
+            ],
+            [
+              "July 2027",
+              "USD 4.51"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 4.57"
+            ],
+            [
+              "Cloverdale, Indiana Compare prices",
+              "October 2026",
+              "USD 4.52"
+            ],
+            [
+              "Nov 16–30, 2026",
+              "USD 4.62"
+            ],
+            [
+              "December 2026",
+              "USD 4.72"
+            ],
+            [
+              "January 2027",
+              "USD 4.82"
+            ],
+            [
+              "February 2027",
+              "USD 4.85"
+            ],
+            [
+              "March 2027",
+              "USD 4.87"
+            ],
+            [
+              "April 2027",
+              "USD 4.95"
+            ],
+            [
+              "May 2027",
+              "USD 4.95"
+            ],
+            [
+              "June 2027",
+              "USD 5.01"
+            ],
+            [
+              "July 2027",
+              "USD 5.01"
+            ],
+            [
+              "September 2027",
+              "USD 4.72"
+            ],
+            [
+              "Coon Rapids, Iowa Compare prices",
+              "Oct 1–15, 2026",
+              "USD 4.42"
+            ],
+            [
+              "Oct 16–31, 2026",
+              "USD 4.37"
+            ],
+            [
+              "November 2026",
+              "USD 4.44"
+            ],
+            [
+              "December 2026",
+              "USD 4.47"
+            ],
+            [
+              "January 2027",
+              "USD 4.52"
+            ],
+            [
+              "February 2027",
+              "USD 4.54"
+            ],
+            [
+              "March 2027",
+              "USD 4.56"
+            ],
+            [
+              "Corning, Iowa Compare prices",
+              "October 2026",
+              "USD 4.38"
+            ],
+            [
+              "November 2026",
+              "USD 4.42"
+            ],
+            [
+              "December 2026",
+              "USD 4.52"
+            ],
+            [
+              "January 2027",
+              "USD 4.59"
+            ],
+            [
+              "February 2027",
+              "USD 4.59"
+            ],
+            [
+              "March 2027",
+              "USD 4.61"
+            ],
+            [
+              "Emmetsburg, Iowa Compare prices",
+              "October 2026",
+              "USD 4.34"
+            ],
+            [
+              "November 2026",
+              "USD 4.37"
+            ],
+            [
+              "December 2026",
+              "USD 4.42"
+            ],
+            [
+              "January 2027",
+              "USD 4.57"
+            ],
+            [
+              "February 2027",
+              "USD 4.57"
+            ],
+            [
+              "March 2027",
+              "USD 4.57"
+            ],
+            [
+              "April 2027",
+              "USD 4.65"
+            ],
+            [
+              "May 2027",
+              "USD 4.65"
+            ],
+            [
+              "June 2027",
+              "USD 4.71"
+            ],
+            [
+              "July 2027",
+              "USD 4.71"
+            ],
+            [
+              "October 2027",
+              "USD 4.67"
+            ],
+            [
+              "Fairbank, Iowa Compare prices",
+              "October 2026",
+              "USD 4.37"
+            ],
+            [
+              "November 2026",
+              "USD 4.37"
+            ],
+            [
+              "December 2026",
+              "USD 4.42"
+            ],
+            [
+              "January 2027",
+              "USD 4.57"
+            ],
+            [
+              "February 2027",
+              "USD 4.57"
+            ],
+            [
+              "March 2027",
+              "USD 4.57"
+            ],
+            [
+              "April 2027",
+              "USD 4.65"
+            ],
+            [
+              "May 2027",
+              "USD 4.65"
+            ],
+            [
+              "June 2027",
+              "USD 4.71"
+            ],
+            [
+              "July 2027",
+              "USD 4.71"
+            ],
+            [
+              "October 2027",
+              "USD 4.67"
+            ],
+            [
+              "December 2027",
+              "USD 4.67"
+            ],
+            [
+              "Fairmont, Nebraska Compare prices",
+              "October 2026",
+              "USD 4.47"
+            ],
+            [
+              "Nov 1–15, 2026",
+              "USD 4.47"
+            ],
+            [
+              "Nov 16–30, 2026",
+              "USD 4.52"
+            ],
+            [
+              "December 2026",
+              "USD 4.57"
+            ],
+            [
+              "January 2027",
+              "USD 4.62"
+            ],
+            [
+              "February 2027",
+              "USD 4.67"
+            ],
+            [
+              "March 2027",
+              "USD 4.70"
+            ],
+            [
+              "April 2027",
+              "USD 4.75"
+            ],
+            [
+              "May 2027",
+              "USD 4.80"
+            ],
+            [
+              "June 2027",
+              "USD 4.89"
+            ],
+            [
+              "July 2027",
+              "USD 4.89"
+            ],
+            [
+              "October 2027",
+              "USD 4.77"
+            ],
+            [
+              "November 2027",
+              "USD 4.77"
+            ],
+            [
+              "Fostoria, Ohio Compare prices",
+              "Oct–Nov 2026",
+              "USD 4.57"
+            ],
+            [
+              "December 2026",
+              "USD 4.77"
+            ],
+            [
+              "January 2027",
+              "USD 4.82"
+            ],
+            [
+              "February 2027",
+              "USD 4.82"
+            ],
+            [
+              "March 2027",
+              "USD 4.87"
+            ],
+            [
+              "April 2027",
+              "USD 4.90"
+            ],
+            [
+              "May 2027",
+              "USD 4.95"
+            ],
+            [
+              "June 2027",
+              "USD 5.06"
+            ],
+            [
+              "Gowrie, Iowa Compare prices",
+              "October 2026",
+              "USD 4.40"
+            ],
+            [
+              "November 2026",
+              "USD 4.44"
+            ],
+            [
+              "December 2026",
+              "USD 4.50"
+            ],
+            [
+              "January 2027",
+              "USD 4.62"
+            ],
+            [
+              "February 2027",
+              "USD 4.64"
+            ],
+            [
+              "March 2027",
+              "USD 4.66"
+            ],
+            [
+              "May 2027",
+              "USD 4.73"
+            ],
+            [
+              "Groton, South Dakota Compare prices",
+              "October 2026",
+              "USD 4.00"
+            ],
+            [
+              "November 2026",
+              "USD 4.04"
+            ],
+            [
+              "December 2026",
+              "USD 4.18"
+            ],
+            [
+              "January 2027",
+              "USD 4.26"
+            ],
+            [
+              "February 2027",
+              "USD 4.29"
+            ],
+            [
+              "March 2027",
+              "USD 4.32"
+            ],
+            [
+              "April 2027",
+              "USD 4.35"
+            ],
+            [
+              "May 2027",
+              "USD 4.37"
+            ],
+            [
+              "June 2027",
+              "USD 4.41"
+            ],
+            [
+              "July 2027",
+              "USD 4.43"
+            ],
+            [
+              "Hanlontown, Iowa Compare prices",
+              "October 2026",
+              "USD 4.37"
+            ],
+            [
+              "December 2026",
+              "USD 4.42"
+            ],
+            [
+              "January 2027",
+              "USD 4.52"
+            ],
+            [
+              "Hudson, South Dakota Compare prices",
+              "October 2026",
+              "USD 4.35"
+            ],
+            [
+              "November 2026",
+              "USD 4.37"
+            ],
+            [
+              "December 2026",
+              "USD 4.43"
+            ],
+            [
+              "January 2027",
+              "USD 4.44"
+            ],
+            [
+              "February 2027",
+              "USD 4.47"
+            ],
+            [
+              "March 2027",
+              "USD 4.50"
+            ],
+            [
+              "April 2027",
+              "USD 4.55"
+            ],
+            [
+              "May 2027",
+              "USD 4.58"
+            ],
+            [
+              "June 2027",
+              "USD 4.66"
+            ],
+            [
+              "July 2027",
+              "USD 4.66"
+            ],
+            [
+              "October 2027",
+              "USD 4.57"
+            ],
+            [
+              "Iowa Falls, Iowa Compare prices",
+              "October 2026",
+              "USD 4.37"
+            ],
+            [
+              "November 2026",
+              "USD 4.37"
+            ],
+            [
+              "December 2026",
+              "USD 4.42"
+            ],
+            [
+              "January 2027",
+              "USD 4.57"
+            ],
+            [
+              "February 2027",
+              "USD 4.57"
+            ],
+            [
+              "March 2027",
+              "USD 4.57"
+            ],
+            [
+              "April 2027",
+              "USD 4.65"
+            ],
+            [
+              "May 2027",
+              "USD 4.65"
+            ],
+            [
+              "June 2027",
+              "USD 4.71"
+            ],
+            [
+              "July 2027",
+              "USD 4.71"
+            ],
+            [
+              "Jewell, Iowa Compare prices",
+              "Oct 1–10, 2026",
+              "USD 4.42"
+            ],
+            [
+              "Oct 11–31, 2026",
+              "USD 4.37"
+            ],
+            [
+              "November 2026",
+              "USD 4.42"
+            ],
+            [
+              "December 2026",
+              "USD 4.46"
+            ],
+            [
+              "January 2027",
+              "USD 4.57"
+            ],
+            [
+              "February 2027",
+              "USD 4.59"
+            ],
+            [
+              "March 2027",
+              "USD 4.61"
+            ],
+            [
+              "April 2027",
+              "USD 4.65"
+            ],
+            [
+              "May 2027",
+              "USD 4.67"
+            ],
+            [
+              "June 2027",
+              "USD 4.68"
+            ],
+            [
+              "Laddonia, Missouri Compare prices",
+              "October 2026",
+              "USD 4.22"
+            ],
+            [
+              "November 2026",
+              "USD 4.42"
+            ],
+            [
+              "December 2026",
+              "USD 4.52"
+            ],
+            [
+              "January 2027",
+              "USD 4.57"
+            ],
+            [
+              "February 2027",
+              "USD 4.62"
+            ],
+            [
+              "March 2027",
+              "USD 4.67"
+            ],
+            [
+              "April 2027",
+              "USD 4.70"
+            ],
+            [
+              "May 2027",
+              "USD 4.77"
+            ],
+            [
+              "June 2027",
+              "USD 4.86"
+            ],
+            [
+              "Lake Crystal, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.14"
+            ],
+            [
+              "November 2026",
+              "USD 4.24"
+            ],
+            [
+              "December 2026",
+              "USD 4.30"
+            ],
+            [
+              "January 2027",
+              "USD 4.40"
+            ],
+            [
+              "February 2027",
+              "USD 4.43"
+            ],
+            [
+              "March 2027",
+              "USD 4.46"
+            ],
+            [
+              "April 2027",
+              "USD 4.51"
+            ],
+            [
+              "May 2027",
+              "USD 4.51"
+            ],
+            [
+              "June 2027",
+              "USD 4.57"
+            ],
+            [
+              "Leipsic, Ohio Compare prices",
+              "Oct–Nov 2026",
+              "USD 4.57"
+            ],
+            [
+              "December 2026",
+              "USD 4.72"
+            ],
+            [
+              "January 2027",
+              "USD 4.87"
+            ],
+            [
+              "February 2027",
+              "USD 4.87"
+            ],
+            [
+              "March 2027",
+              "USD 4.87"
+            ],
+            [
+              "April 2027",
+              "USD 4.95"
+            ],
+            [
+              "May 2027",
+              "USD 4.95"
+            ],
+            [
+              "June 2027",
+              "USD 5.01"
+            ],
+            [
+              "July 2027",
+              "USD 5.01"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 4.77"
+            ],
+            [
+              "Macon, Missouri Compare prices",
+              "Oct 1–15, 2026",
+              "USD 4.25"
+            ],
+            [
+              "Oct 16–31, 2026",
+              "USD 4.28"
+            ],
+            [
+              "November 2026",
+              "USD 4.35"
+            ],
+            [
+              "December 2026",
+              "USD 4.42"
+            ],
+            [
+              "January 2027",
+              "USD 4.49"
+            ],
+            [
+              "February 2027",
+              "USD 4.52"
+            ],
+            [
+              "March 2027",
+              "USD 4.57"
+            ],
+            [
+              "April 2027",
+              "USD 4.60"
+            ],
+            [
+              "May 2027",
+              "USD 4.65"
+            ],
+            [
+              "June 2027",
+              "USD 4.71"
+            ],
+            [
+              "Menlo, Iowa Compare prices",
+              "Oct–Nov 2026",
+              "USD 4.40"
+            ],
+            [
+              "Nov 16–30, 2026",
+              "USD 4.52"
+            ],
+            [
+              "December 2026",
+              "USD 4.54"
+            ],
+            [
+              "January 2027",
+              "USD 4.65"
+            ],
+            [
+              "February 2027",
+              "USD 4.67"
+            ],
+            [
+              "March 2027",
+              "USD 4.67"
+            ],
+            [
+              "April 2027",
+              "USD 4.71"
+            ],
+            [
+              "May 2027",
+              "USD 4.74"
+            ],
+            [
+              "June 2027",
+              "USD 4.81"
+            ],
+            [
+              "July 2027",
+              "USD 4.84"
+            ],
+            [
+              "Mitchell, South Dakota Compare prices",
+              "October 2026",
+              "USD 4.24"
+            ],
+            [
+              "November 2026",
+              "USD 4.24"
+            ],
+            [
+              "December 2026",
+              "USD 4.27"
+            ],
+            [
+              "January 2027",
+              "USD 4.31"
+            ],
+            [
+              "February 2027",
+              "USD 4.33"
+            ],
+            [
+              "March 2027",
+              "USD 4.35"
+            ],
+            [
+              "April 2027",
+              "USD 4.35"
+            ],
+            [
+              "May 2027",
+              "USD 4.37"
+            ],
+            [
+              "June 2027",
+              "USD 4.35"
+            ],
+            [
+              "July 2027",
+              "USD 4.37"
+            ],
+            [
+              "North Manchester, Indiana Compare prices",
+              "Oct–Nov 2026",
+              "USD 4.47"
+            ],
+            [
+              "December 2026",
+              "USD 4.67"
+            ],
+            [
+              "January 2027",
+              "USD 4.77"
+            ],
+            [
+              "February 2027",
+              "USD 4.75"
+            ],
+            [
+              "March 2027",
+              "USD 4.82"
+            ],
+            [
+              "April 2027",
+              "USD 4.90"
+            ],
+            [
+              "May 2027",
+              "USD 4.95"
+            ],
+            [
+              "June 2027",
+              "USD 5.01"
+            ],
+            [
+              "July 2027",
+              "USD 5.01"
+            ],
+            [
+              "Portland, Indiana Compare prices",
+              "Oct–Nov 2026",
+              "USD 4.62"
+            ],
+            [
+              "December 2026",
+              "USD 4.82"
+            ],
+            [
+              "January 2027",
+              "USD 4.92"
+            ],
+            [
+              "February 2027",
+              "USD 4.94"
+            ],
+            [
+              "March 2027",
+              "USD 4.97"
+            ],
+            [
+              "April 2027",
+              "USD 5.05"
+            ],
+            [
+              "July 2027",
+              "USD 5.11"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 4.97"
+            ],
+            [
+              "Preston, Minnesota Compare prices",
+              "October 2026",
+              "USD 3.97"
+            ],
+            [
+              "November 2026",
+              "USD 4.12"
+            ],
+            [
+              "December 2026",
+              "USD 4.27"
+            ],
+            [
+              "January 2027",
+              "USD 4.45"
+            ],
+            [
+              "February 2027",
+              "USD 4.45"
+            ],
+            [
+              "March 2027",
+              "USD 4.45"
+            ],
+            [
+              "April 2027",
+              "USD 4.53"
+            ],
+            [
+              "May 2027",
+              "USD 4.53"
+            ],
+            [
+              "Scotland, South Dakota Compare prices",
+              "Oct–Nov 2026",
+              "USD 4.62"
+            ],
+            [
+              "December 2026",
+              "USD 4.82"
+            ],
+            [
+              "January 2027",
+              "USD 4.92"
+            ],
+            [
+              "February 2027",
+              "USD 4.94"
+            ],
+            [
+              "March 2027",
+              "USD 4.97"
+            ],
+            [
+              "April 2027",
+              "USD 5.05"
+            ],
+            [
+              "July 2027",
+              "USD 5.11"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 4.97"
+            ],
+            [
+              "Shelbyville, Indiana Compare prices",
+              "October 2026",
+              "USD 4.57"
+            ],
+            [
+              "Nov 1–15, 2026",
+              "USD 4.62"
+            ],
+            [
+              "Nov 16–30, 2026",
+              "USD 4.72"
+            ],
+            [
+              "December 2026",
+              "USD 4.77"
+            ],
+            [
+              "January 2027",
+              "USD 4.84"
+            ],
+            [
+              "February 2027",
+              "USD 4.87"
+            ],
+            [
+              "March 2027",
+              "USD 4.89"
+            ],
+            [
+              "April 2027",
+              "USD 4.95"
+            ],
+            [
+              "May 2027",
+              "USD 5.00"
+            ],
+            [
+              "June 2027",
+              "USD 5.01"
+            ],
+            [
+              "July 2027",
+              "USD 5.06"
+            ],
+            [
+              "September 2027",
+              "USD 4.77"
+            ],
+            [
+              "Shell Rock, Iowa Compare prices",
+              "October 2026",
+              "USD 4.37"
+            ],
+            [
+              "November 2026",
+              "USD 4.37"
+            ],
+            [
+              "December 2026",
+              "USD 4.42"
+            ],
+            [
+              "January 2027",
+              "USD 4.57"
+            ],
+            [
+              "February 2027",
+              "USD 4.57"
+            ],
+            [
+              "March 2027",
+              "USD 4.57"
+            ],
+            [
+              "April 2027",
+              "USD 4.65"
+            ],
+            [
+              "June 2027",
+              "USD 4.71"
+            ]
+          ],
+          "snippet": "Poet Cash Bids per Bushel in USD for #2 Yellow Corn in Nebraska, Iowa, South Dakota, Indiana, Ohio, Missouri, Minnesota and Michigan • Disclaimer Location Delivery Cash Price Alexandria, Indiana Compare prices Oct–Nov 2026 USD 4.52 December 2026 USD 4.72 January 2027 USD 4.77 February 2027 USD 4.87 March 2027 USD 4.87 April 2027 USD 4.95 May 2027 USD 4.95 Jun–Jul 2027 USD 5.01 Arthur, Iowa Compare prices Oct–Nov 2026 USD 4.37 December 2026 USD 4.42 January 2027 USD 4.52 February 2027 USD 4.54 March 2027 USD 4.57 April 2027 USD 4.60 May 2027 USD 4.63 June 2027 USD 4.69 July 2027 USD 4.69 Ashton, Iowa Compare prices October 2026 USD 4.42 November 2026 USD 4.45 December 2026 USD 4.47 January 2027 USD 4.49 February 2027 USD 4.52 March 2027 USD 4.55 April 2027 USD 4.59 May 2027 USD 4.62 June 2027 USD 4.70 July 2027 USD 4.70 Big Stone, South Dakota Compare prices Oct 1–15, 2026 USD 4.07 December 2026 USD 4.19 January 2027 USD 4.31 Bingham Lake, Minnesota Compare prices October 2026 USD 4.20 November 2026 USD 4.22 December 2026 USD 4.28 January 2027 USD 4.42 February 2027 USD 4.44 March 2027 USD 4.47 April 2027 USD 4.50 May 2027 USD 4.50 June 2027 USD 4.56 July 2027 USD 4.56 Caro, Michigan Compare prices December 2026 USD 4.57 January 2027 USD 4.69 February 2027 USD 4.72 March 2027 USD 4.74 September 2027 USD 4.67 Chancellor, South Dakota Compare prices October 2026 USD 4.25 November 2026 USD 4.30 December 2026 USD 4.37 January 2027 USD 4.38 February 2027 USD 4.40 March 2027 USD 4.4",
+          "frame_url": "https://farmbucks.com/grain-prices/poet"
+        }
+      ],
+      "bids": [],
+      "conflicts": [],
+      "error": "No verified bid rows extracted: site may have no data or require different parser. Inspect screenshot and text.",
+      "frames": [
+        {
+          "url": "https://farmbucks.com/grain-prices/poet",
+          "table_count": 1,
+          "text_length": 19491
+        }
+      ]
+    },
+    {
+      "source": "New Vision (Farmbucks)",
+      "url": "https://farmbucks.com/grain-prices/new-vision-coop",
+      "status": "200",
+      "tables": [
+        {
+          "kind": "table",
+          "location": "Worthington",
+          "commodity": "Soybeans",
+          "previous": "iloma, Minnesota\n                                MNSP Brewster, Minnesota\n                                Mountain Lake, Minnesota\n                                Reading, Minnesota\n                                Wilmont, Minnesota\n                                Windom, Minnesota\n                                Worthington, Minnesota\n                        \n                    \n                ",
+          "headers": [
+            "Location",
+            "Delivery",
+            "Cash Price"
+          ],
+          "rows": [
+            [
+              "Location",
+              "Delivery",
+              "Cash Price"
+            ],
+            [
+              "ADM Mankato, Minnesota Compare prices",
+              "Oct 9–31, 2026",
+              "USD 12.46"
+            ],
+            [
+              "November 2026",
+              "USD 12.66"
+            ],
+            [
+              "December 2026",
+              "USD 12.72"
+            ],
+            [
+              "Adrian, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.11"
+            ],
+            [
+              "AGP Sheldon, Iowa Compare prices",
+              "Oct 9–31, 2026",
+              "USD 12.16"
+            ],
+            [
+              "November 2026",
+              "USD 12.16"
+            ],
+            [
+              "December 2026",
+              "USD 12.48"
+            ],
+            [
+              "Beaver Creek, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.21"
+            ],
+            [
+              "Brewster, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.21"
+            ],
+            [
+              "January 2027",
+              "USD 12.23"
+            ],
+            [
+              "Apr–May 2027",
+              "USD 12.42"
+            ],
+            [
+              "Jun–Jul 2027",
+              "USD 12.48"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 11.67"
+            ],
+            [
+              "CHS Fairmont, Minnesota Compare prices",
+              "Oct 9–31, 2026",
+              "USD 12.50"
+            ],
+            [
+              "November 2026",
+              "USD 12.66"
+            ],
+            [
+              "December 2026",
+              "USD 12.67"
+            ],
+            [
+              "CHS Mankato, Minnesota Compare prices",
+              "Oct 9–31, 2026",
+              "USD 12.41"
+            ],
+            [
+              "November 2026",
+              "USD 12.61"
+            ],
+            [
+              "December 2026",
+              "USD 12.67"
+            ],
+            [
+              "Dundee, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.13"
+            ],
+            [
+              "January 2027",
+              "USD 12.23"
+            ],
+            [
+              "Apr–May 2027",
+              "USD 12.42"
+            ],
+            [
+              "Jun–Jul 2027",
+              "USD 12.48"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 11.67"
+            ],
+            [
+              "Ellsworth, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.21"
+            ],
+            [
+              "January 2027",
+              "USD 12.23"
+            ],
+            [
+              "Apr–May 2027",
+              "USD 12.42"
+            ],
+            [
+              "Jun–Jul 2027",
+              "USD 12.48"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 11.67"
+            ],
+            [
+              "Heron Lake, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.21"
+            ],
+            [
+              "January 2027",
+              "USD 12.23"
+            ],
+            [
+              "Apr–May 2027",
+              "USD 12.42"
+            ],
+            [
+              "Jun–Jul 2027",
+              "USD 12.48"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 11.67"
+            ],
+            [
+              "Hills Terminal, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.21"
+            ],
+            [
+              "January 2027",
+              "USD 12.23"
+            ],
+            [
+              "Apr–May 2027",
+              "USD 12.42"
+            ],
+            [
+              "Jun–Jul 2027",
+              "USD 12.48"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 11.67"
+            ],
+            [
+              "Jeffers, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.21"
+            ],
+            [
+              "January 2027",
+              "USD 12.23"
+            ],
+            [
+              "Apr–May 2027",
+              "USD 12.42"
+            ],
+            [
+              "Jun–Jul 2027",
+              "USD 12.48"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 11.67"
+            ],
+            [
+              "Magnolia, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.21"
+            ],
+            [
+              "January 2027",
+              "USD 12.23"
+            ],
+            [
+              "Apr–May 2027",
+              "USD 12.42"
+            ],
+            [
+              "Jun–Jul 2027",
+              "USD 12.48"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 11.67"
+            ],
+            [
+              "Miloma, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.16"
+            ],
+            [
+              "January 2027",
+              "USD 12.23"
+            ],
+            [
+              "Apr–May 2027",
+              "USD 12.42"
+            ],
+            [
+              "Jun–Jul 2027",
+              "USD 12.48"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 11.67"
+            ],
+            [
+              "MNSP Brewster, Minnesota Compare prices",
+              "Oct 9–31, 2026",
+              "USD 12.51"
+            ],
+            [
+              "November 2026",
+              "USD 12.61"
+            ],
+            [
+              "December 2026",
+              "USD 12.67"
+            ],
+            [
+              "Mountain Lake, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.21"
+            ],
+            [
+              "January 2027",
+              "USD 12.23"
+            ],
+            [
+              "Apr–May 2027",
+              "USD 12.42"
+            ],
+            [
+              "Jun–Jul 2027",
+              "USD 12.48"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 11.67"
+            ],
+            [
+              "Reading, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.13"
+            ],
+            [
+              "January 2027",
+              "USD 12.23"
+            ],
+            [
+              "Apr–May 2027",
+              "USD 12.42"
+            ],
+            [
+              "Jun–Jul 2027",
+              "USD 12.48"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 11.67"
+            ],
+            [
+              "Wilmont, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.13"
+            ],
+            [
+              "January 2027",
+              "USD 12.23"
+            ],
+            [
+              "Apr–May 2027",
+              "USD 12.42"
+            ],
+            [
+              "Jun–Jul 2027",
+              "USD 12.48"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 11.67"
+            ],
+            [
+              "Windom, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.13"
+            ],
+            [
+              "January 2027",
+              "USD 12.23"
+            ],
+            [
+              "Apr–May 2027",
+              "USD 12.42"
+            ],
+            [
+              "Jun–Jul 2027",
+              "USD 12.48"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 11.67"
+            ],
+            [
+              "Worthington, Minnesota Compare prices",
+              "October 2026",
+              "USD 12.13"
+            ],
+            [
+              "January 2027",
+              "USD 12.23"
+            ],
+            [
+              "Apr–May 2027",
+              "USD 12.42"
+            ],
+            [
+              "Jun–Jul 2027",
+              "USD 12.48"
+            ],
+            [
+              "Oct–Nov 2027",
+              "USD 11.67"
+            ]
+          ],
+          "snippet": "New Vision Coop Grain Prices per Bushel in USD for #2 Yellow Soybeans in Minnesota and Iowa • Disclaimer Location Delivery Cash Price ADM Mankato, Minnesota Compare prices Oct 9–31, 2026 USD 12.46 November 2026 USD 12.66 December 2026 USD 12.72 Adrian, Minnesota Compare prices October 2026 USD 12.11 AGP Sheldon, Iowa Compare prices Oct 9–31, 2026 USD 12.16 November 2026 USD 12.16 December 2026 USD 12.48 Beaver Creek, Minnesota Compare prices October 2026 USD 12.21 Brewster, Minnesota Compare prices October 2026 USD 12.21 January 2027 USD 12.23 Apr–May 2027 USD 12.42 Jun–Jul 2027 USD 12.48 Oct–Nov 2027 USD 11.67 CHS Fairmont, Minnesota Compare prices Oct 9–31, 2026 USD 12.50 November 2026 USD 12.66 December 2026 USD 12.67 CHS Mankato, Minnesota Compare prices Oct 9–31, 2026 USD 12.41 November 2026 USD 12.61 December 2026 USD 12.67 Dundee, Minnesota Compare prices October 2026 USD 12.13 January 2027 USD 12.23 Apr–May 2027 USD 12.42 Jun–Jul 2027 USD 12.48 Oct–Nov 2027 USD 11.67 Ellsworth, Minnesota Compare prices October 2026 USD 12.21 January 2027 USD 12.23 Apr–May 2027 USD 12.42 Jun–Jul 2027 USD 12.48 Oct–Nov 2027 USD 11.67 Heron Lake, Minnesota Compare prices October 2026 USD 12.21 January 2027 USD 12.23 Apr–May 2027 USD 12.42 Jun–Jul 2027 USD 12.48 Oct–Nov 2027 USD 11.67 Hills Terminal, Minnesota Compare prices October 2026 USD 12.21 January 2027 USD 12.23 Apr–May 2027 USD 12.42 Jun–Jul 2027 USD 12.48 Oct–Nov 2027 USD 11.67 Jeffers, Minnesota Compare prices October 2026 USD ",
+          "frame_url": "https://farmbucks.com/grain-prices/new-vision-coop"
+        },
+        {
+          "kind": "table",
+          "location": "Worthington",
+          "commodity": "Corn",
+          "previous": "      Miloma, Minnesota\n                                Mountain Lake, Minnesota\n                                POET Ashton, Iowa\n                                Reading, Minnesota\n                                Wilmont, Minnesota\n                                Windom, Minnesota\n                                Worthington, Minnesota\n                        \n                    \n                ",
+          "headers": [
+            "Location",
+            "Delivery",
+            "Cash Price"
+          ],
+          "rows": [
+            [
+              "Location",
+              "Delivery",
+              "Cash Price"
+            ],
+            [
+              "Brewster, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.20"
+            ],
+            [
+              "November 2026",
+              "USD 4.22"
+            ],
+            [
+              "December 2026",
+              "USD 4.27"
+            ],
+            [
+              "January 2027",
+              "USD 4.42"
+            ],
+            [
+              "February 2027",
+              "USD 4.42"
+            ],
+            [
+              "March 2027",
+              "USD 4.42"
+            ],
+            [
+              "April 2027",
+              "USD 4.50"
+            ],
+            [
+              "May 2027",
+              "USD 4.50"
+            ],
+            [
+              "June 2027",
+              "USD 4.56"
+            ],
+            [
+              "July 2027",
+              "USD 4.56"
+            ],
+            [
+              "Dundee, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.12"
+            ],
+            [
+              "November 2026",
+              "USD 4.14"
+            ],
+            [
+              "December 2026",
+              "USD 4.19"
+            ],
+            [
+              "January 2027",
+              "USD 4.34"
+            ],
+            [
+              "February 2027",
+              "USD 4.34"
+            ],
+            [
+              "March 2027",
+              "USD 4.34"
+            ],
+            [
+              "April 2027",
+              "USD 4.42"
+            ],
+            [
+              "May 2027",
+              "USD 4.42"
+            ],
+            [
+              "June 2027",
+              "USD 4.48"
+            ],
+            [
+              "July 2027",
+              "USD 4.48"
+            ],
+            [
+              "Ellsworth, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.20"
+            ],
+            [
+              "November 2026",
+              "USD 4.17"
+            ],
+            [
+              "December 2026",
+              "USD 4.22"
+            ],
+            [
+              "January 2027",
+              "USD 4.42"
+            ],
+            [
+              "February 2027",
+              "USD 4.42"
+            ],
+            [
+              "March 2027",
+              "USD 4.42"
+            ],
+            [
+              "April 2027",
+              "USD 4.50"
+            ],
+            [
+              "May 2027",
+              "USD 4.50"
+            ],
+            [
+              "June 2027",
+              "USD 4.56"
+            ],
+            [
+              "July 2027",
+              "USD 4.56"
+            ],
+            [
+              "Heron Lake, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.17"
+            ],
+            [
+              "November 2026",
+              "USD 4.17"
+            ],
+            [
+              "December 2026",
+              "USD 4.24"
+            ],
+            [
+              "January 2027",
+              "USD 4.39"
+            ],
+            [
+              "February 2027",
+              "USD 4.39"
+            ],
+            [
+              "March 2027",
+              "USD 4.39"
+            ],
+            [
+              "April 2027",
+              "USD 4.47"
+            ],
+            [
+              "May 2027",
+              "USD 4.47"
+            ],
+            [
+              "June 2027",
+              "USD 4.53"
+            ],
+            [
+              "July 2027",
+              "USD 4.53"
+            ],
+            [
+              "Hills Terminal, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.27"
+            ],
+            [
+              "November 2026",
+              "USD 4.22"
+            ],
+            [
+              "December 2026",
+              "USD 4.27"
+            ],
+            [
+              "January 2027",
+              "USD 4.42"
+            ],
+            [
+              "February 2027",
+              "USD 4.42"
+            ],
+            [
+              "March 2027",
+              "USD 4.42"
+            ],
+            [
+              "April 2027",
+              "USD 4.50"
+            ],
+            [
+              "May 2027",
+              "USD 4.50"
+            ],
+            [
+              "June 2027",
+              "USD 4.56"
+            ],
+            [
+              "July 2027",
+              "USD 4.56"
+            ],
+            [
+              "Jeffers, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.18"
+            ],
+            [
+              "November 2026",
+              "USD 4.22"
+            ],
+            [
+              "December 2026",
+              "USD 4.23"
+            ],
+            [
+              "January 2027",
+              "USD 4.38"
+            ],
+            [
+              "February 2027",
+              "USD 4.38"
+            ],
+            [
+              "March 2027",
+              "USD 4.38"
+            ],
+            [
+              "April 2027",
+              "USD 4.46"
+            ],
+            [
+              "May 2027",
+              "USD 4.46"
+            ],
+            [
+              "June 2027",
+              "USD 4.52"
+            ],
+            [
+              "July 2027",
+              "USD 4.52"
+            ],
+            [
+              "Magnolia, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.27"
+            ],
+            [
+              "November 2026",
+              "USD 4.22"
+            ],
+            [
+              "December 2026",
+              "USD 4.27"
+            ],
+            [
+              "January 2027",
+              "USD 4.47"
+            ],
+            [
+              "February 2027",
+              "USD 4.47"
+            ],
+            [
+              "March 2027",
+              "USD 4.47"
+            ],
+            [
+              "April 2027",
+              "USD 4.60"
+            ],
+            [
+              "May 2027",
+              "USD 4.60"
+            ],
+            [
+              "June 2027",
+              "USD 4.66"
+            ],
+            [
+              "July 2027",
+              "USD 4.66"
+            ],
+            [
+              "Mankato, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.12"
+            ],
+            [
+              "November 2026",
+              "USD 4.22"
+            ],
+            [
+              "December 2026",
+              "USD 4.27"
+            ],
+            [
+              "January 2027",
+              "USD 4.47"
+            ],
+            [
+              "February 2027",
+              "USD 4.47"
+            ],
+            [
+              "March 2027",
+              "USD 4.47"
+            ],
+            [
+              "April 2027",
+              "USD 4.60"
+            ],
+            [
+              "May 2027",
+              "USD 4.60"
+            ],
+            [
+              "June 2027",
+              "USD 4.66"
+            ],
+            [
+              "July 2027",
+              "USD 4.66"
+            ],
+            [
+              "Miloma, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.20"
+            ],
+            [
+              "November 2026",
+              "USD 4.22"
+            ],
+            [
+              "December 2026",
+              "USD 4.27"
+            ],
+            [
+              "January 2027",
+              "USD 4.42"
+            ],
+            [
+              "February 2027",
+              "USD 4.42"
+            ],
+            [
+              "March 2027",
+              "USD 4.42"
+            ],
+            [
+              "April 2027",
+              "USD 4.50"
+            ],
+            [
+              "May 2027",
+              "USD 4.50"
+            ],
+            [
+              "June 2027",
+              "USD 4.56"
+            ],
+            [
+              "July 2027",
+              "USD 4.56"
+            ],
+            [
+              "Mountain Lake, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.20"
+            ],
+            [
+              "November 2026",
+              "USD 4.22"
+            ],
+            [
+              "December 2026",
+              "USD 4.27"
+            ],
+            [
+              "January 2027",
+              "USD 4.42"
+            ],
+            [
+              "February 2027",
+              "USD 4.42"
+            ],
+            [
+              "March 2027",
+              "USD 4.42"
+            ],
+            [
+              "April 2027",
+              "USD 4.50"
+            ],
+            [
+              "May 2027",
+              "USD 4.50"
+            ],
+            [
+              "June 2027",
+              "USD 4.56"
+            ],
+            [
+              "July 2027",
+              "USD 4.56"
+            ],
+            [
+              "POET Ashton, Iowa Compare prices",
+              "Oct 9–14, 2026",
+              "USD 4.57"
+            ],
+            [
+              "Oct 15–31, 2026",
+              "USD 4.42"
+            ],
+            [
+              "November 2026",
+              "USD 4.45"
+            ],
+            [
+              "December 2026",
+              "USD 4.47"
+            ],
+            [
+              "Reading, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.12"
+            ],
+            [
+              "November 2026",
+              "USD 4.14"
+            ],
+            [
+              "December 2026",
+              "USD 4.19"
+            ],
+            [
+              "January 2027",
+              "USD 4.34"
+            ],
+            [
+              "February 2027",
+              "USD 4.34"
+            ],
+            [
+              "March 2027",
+              "USD 4.34"
+            ],
+            [
+              "April 2027",
+              "USD 4.42"
+            ],
+            [
+              "May 2027",
+              "USD 4.42"
+            ],
+            [
+              "June 2027",
+              "USD 4.48"
+            ],
+            [
+              "July 2027",
+              "USD 4.48"
+            ],
+            [
+              "Wilmont, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.12"
+            ],
+            [
+              "November 2026",
+              "USD 4.14"
+            ],
+            [
+              "December 2026",
+              "USD 4.19"
+            ],
+            [
+              "January 2027",
+              "USD 4.34"
+            ],
+            [
+              "February 2027",
+              "USD 4.34"
+            ],
+            [
+              "March 2027",
+              "USD 4.34"
+            ],
+            [
+              "April 2027",
+              "USD 4.42"
+            ],
+            [
+              "May 2027",
+              "USD 4.42"
+            ],
+            [
+              "June 2027",
+              "USD 4.48"
+            ],
+            [
+              "July 2027",
+              "USD 4.48"
+            ],
+            [
+              "Windom, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.20"
+            ],
+            [
+              "November 2026",
+              "USD 4.22"
+            ],
+            [
+              "December 2026",
+              "USD 4.27"
+            ],
+            [
+              "January 2027",
+              "USD 4.47"
+            ],
+            [
+              "February 2027",
+              "USD 4.47"
+            ],
+            [
+              "March 2027",
+              "USD 4.47"
+            ],
+            [
+              "April 2027",
+              "USD 4.60"
+            ],
+            [
+              "May 2027",
+              "USD 4.60"
+            ],
+            [
+              "June 2027",
+              "USD 4.66"
+            ],
+            [
+              "July 2027",
+              "USD 4.66"
+            ],
+            [
+              "Worthington, Minnesota Compare prices",
+              "October 2026",
+              "USD 4.20"
+            ],
+            [
+              "November 2026",
+              "USD 4.22"
+            ],
+            [
+              "December 2026",
+              "USD 4.27"
+            ],
+            [
+              "January 2027",
+              "USD 4.47"
+            ],
+            [
+              "February 2027",
+              "USD 4.47"
+            ],
+            [
+              "March 2027",
+              "USD 4.47"
+            ],
+            [
+              "April 2027",
+              "USD 4.60"
+            ],
+            [
+              "May 2027",
+              "USD 4.60"
+            ],
+            [
+              "June 2027",
+              "USD 4.66"
+            ],
+            [
+              "July 2027",
+              "USD 4.66"
+            ]
+          ],
+          "snippet": "New Vision Coop Grain Prices per Bushel in USD for #2 Yellow Corn in Minnesota and Iowa • Disclaimer Location Delivery Cash Price Brewster, Minnesota Compare prices October 2026 USD 4.20 November 2026 USD 4.22 December 2026 USD 4.27 January 2027 USD 4.42 February 2027 USD 4.42 March 2027 USD 4.42 April 2027 USD 4.50 May 2027 USD 4.50 June 2027 USD 4.56 July 2027 USD 4.56 Dundee, Minnesota Compare prices October 2026 USD 4.12 November 2026 USD 4.14 December 2026 USD 4.19 January 2027 USD 4.34 February 2027 USD 4.34 March 2027 USD 4.34 April 2027 USD 4.42 May 2027 USD 4.42 June 2027 USD 4.48 July 2027 USD 4.48 Ellsworth, Minnesota Compare prices October 2026 USD 4.20 November 2026 USD 4.17 December 2026 USD 4.22 January 2027 USD 4.42 February 2027 USD 4.42 March 2027 USD 4.42 April 2027 USD 4.50 May 2027 USD 4.50 June 2027 USD 4.56 July 2027 USD 4.56 Heron Lake, Minnesota Compare prices October 2026 USD 4.17 November 2026 USD 4.17 December 2026 USD 4.24 January 2027 USD 4.39 February 2027 USD 4.39 March 2027 USD 4.39 April 2027 USD 4.47 May 2027 USD 4.47 June 2027 USD 4.53 July 2027 USD 4.53 Hills Terminal, Minnesota Compare prices October 2026 USD 4.27 November 2026 USD 4.22 December 2026 USD 4.27 January 2027 USD 4.42 February 2027 USD 4.42 March 2027 USD 4.42 April 2027 USD 4.50 May 2027 USD 4.50 June 2027 USD 4.56 July 2027 USD 4.56 Jeffers, Minnesota Compare prices October 2026 USD 4.18 November 2026 USD 4.22 December 2026 USD 4.23 January 2027 USD 4.38 February 2027 USD 4",
+          "frame_url": "https://farmbucks.com/grain-prices/new-vision-coop"
+        }
+      ],
+      "bids": [],
+      "conflicts": [],
+      "error": "No verified bid rows extracted: site may have no data or require different parser. Inspect screenshot and text.",
+      "frames": [
+        {
+          "url": "https://farmbucks.com/grain-prices/new-vision-coop",
+          "table_count": 2,
+          "text_length": 16785
+        }
+      ]
+    }
+  ]
+}
